@@ -1,94 +1,42 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
+import data from "../../data.json";
 import { Link } from "react-router-dom";
-import { gsap } from "gsap";
-import navData from "../../data.json";
 
 const Hamburger = () => {
-    const {
-        header: { navlists },
-    } = navData;
-    const [triggerOpen, setTriggerOpen] = useState(false);
-    const menuRef = useRef(null);
-    const hamburgerRef = useRef(null);
-
-    const triggerOpenFunction = () => {
-        setTriggerOpen(!triggerOpen);
+    const [isOpen, setIsOpen] = useState(false);
+    const text = data.header.hamburger;
+    const clicked = () => {
+        setIsOpen(!isOpen);
     };
-
-    const handleLinkClick = () => {
-        setTriggerOpen(false);
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
     };
-
-    useEffect(() => {
-        if (triggerOpen) {
-            gsap.to(menuRef.current, {
-                x: 0,
-                duration: 0.5,
-                ease: "power3.inOut",
-            });
-            gsap.to(menuRef.current, {
-                opacity: 1,
-                duration: 0.5,
-                ease: "power3.inOut",
-                delay: 0.1,
-            });
-            gsap.to(hamburgerRef.current, {
-                opacity: 0,
-                duration: 0.3,
-                ease: "power3.inOut",
-            });
-        } else {
-            gsap.to(menuRef.current, {
-                x: "100%",
-                duration: 0.5,
-                ease: "power3.inOut",
-            });
-            gsap.to(menuRef.current, {
-                opacity: 0,
-                duration: 0.5,
-                ease: "power3.inOut",
-            });
-            gsap.to(hamburgerRef.current, {
-                opacity: 1,
-                duration: 0.3,
-                ease: "power3.inOut",
-                delay: 0.1,
-            });
-        }
-    }, [triggerOpen]);
-
     return (
         <>
-            <div
-                ref={menuRef}
-                className="absolute bg-white text-black top-0 left-0 right-0 flex flex-col justify-center items-center h-screen gap-8 opacity-0"
-                style={{ zIndex: 1000 }}
-            >
-                <ul className="flex flex-col items-center gap-5 text-3xl uppercase">
-                    {navlists.map((list, index) => (
-                        <li key={index}>
-                            <Link to={list.path} onClick={handleLinkClick}>
-                                {list.name}
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
-                <div
-                    onClick={triggerOpenFunction}
-                    className="absolute top-4 right-4 hover:cursor-pointer"
-                >
-                    <span className="material-symbols-outlined text-4xl">
-                        close
-                    </span>
+            <div onClick={clicked}>
+                <span className="material-symbols-outlined text-3xl">menu</span>
+            </div>
+            {isOpen && (
+                <div>
+                    <div className="z-20 absolute top-0 right-0 left-0 bottom-0 bg-white flex justify-center items-center h-screen">
+                        <ul className="flex flex-col justify-center items-center h-screen gap-2 text-2xl">
+                            {text.map((text, index) => (
+                                <li onClick={scrollToTop} key={index}>
+                                    <Link to={text.page}>{text.list}</Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div
+                        onClick={clicked}
+                        className="absolute top-4 right-7 z-20"
+                    >
+                        <span className="material-symbols-outlined text-4xl">
+                            close
+                        </span>
+                    </div>
                 </div>
-            </div>
-            <div
-                ref={hamburgerRef}
-                onClick={triggerOpenFunction}
-                className="hover:cursor-pointer"
-            >
-                <span className="material-symbols-outlined text-4xl">menu</span>
-            </div>
+            )}
         </>
     );
 };

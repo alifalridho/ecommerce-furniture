@@ -1,24 +1,18 @@
 import React from "react";
-import Hero from "./First Page/Hero";
-import Services from "./Second Page/Services";
-import SoftwareSolutions from "./Third Page/SoftwareSolutions";
-import Experiences from "./Fourth Page/Experiences";
-import ClientResearch from "./Fifth Page/ClientResearch";
-import JobVacancies from "./Sixth Page/JobVacancies";
-import ClientTestimonials from "./Seventh Page/ClientTestimonials";
-import Blog from "./Eighth Page/Blog";
+import FirstSection from "./First Section/FirstSection";
+import SecondSection from "./Second Section/SecondSection";
+import ThirdSection from "./Third Section/ThirdSection";
+import FourthSection from "./Fourth Section/FourthSection";
+import FifthSection from "./Fifth Section/FifthSection";
 
 const Home = () => {
     return (
         <>
-            <Hero />
-            <Services />
-            <SoftwareSolutions />
-            <Experiences />
-            <ClientResearch />
-            <JobVacancies />
-            <ClientTestimonials />
-            <Blog />
+            <FirstSection />
+            <SecondSection />
+            <ThirdSection />
+            <FourthSection />
+            <FifthSection />
         </>
     );
 };

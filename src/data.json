@@ -1,452 +1,752 @@
 {
     "header": {
-        "navlists": [
-            {
-                "name": "About Us",
-                "path": "/about"
-            },
-            {
-                "name": "Services",
-                "path": "/services"
-            },
-            {
-                "name": "Careers",
-                "path": "/careers"
-            },
-            {
-                "name": "Blog",
-                "path": "/blog"
-            },
-            {
-                "name": "Contact Us",
-                "path": "/contact"
-            }
+        "list": [
+            { "list": "Home", "page": "/" },
+            { "list": "Shop", "page": "/shop" },
+            { "list": "Blog", "page": "/blog" },
+            { "list": "Contact", "page": "/contact" }
+        ],
+        "icon": ["person", "search", "shopping_cart"],
+        "hamburger": [
+            { "list": "HOME", "page": "/" },
+            { "list": "SHOP", "page": "/shop" },
+            { "list": "BLOG", "page": "/blog" },
+            { "list": "CONTACT", "page": "/contact" },
+            { "list": "ACCOUNT", "page": "/account" },
+            { "list": "SEARCH", "page": "/search" },
+            { "list": "CART", "page": "/cart" }
         ]
     },
-
     "main": {
-        "home": {
-            "hero": {
-                "textOne": "Prosper with our bespoke solutions",
-                "textTwo": "Unlock the full potential of your business with our tailored strategies and innovative solutions designed to drive growth and efficiency.",
-                "textThree": "Worked with 100+ Companies"
-            },
-            "services": {
-                "heading": "We help more than 1500 companies from all sectors",
-                "subHeading": "Our expertise spans across various industries, providing tailored solutions to meet your unique business needs and drive success.",
-                "card": [
-                    {
-                        "heading": "Business Strategy",
-                        "subHeading": "Transform your business with strategic insights and innovative solutions designed to enhance growth and operational efficiency."
-                    },
-                    {
-                        "heading": "Digitalization",
-                        "subHeading": "Leverage cutting-edge technology to digitize your operations, improving productivity and streamlining processes for a modern business approach."
-                    },
-                    {
-                        "heading": "Risk Assessment",
-                        "subHeading": "Identify and mitigate potential risks with our comprehensive assessment services, ensuring your business remains resilient and secure."
-                    }
-                ]
-            },
-            "softwareSolution": {
-                "heading": "We are building software solutions that solve your business challenges",
-                "subHeading": "We develop bespoke software solutions designed to address your business challenges, enhance efficiency, and drive sustainable growth.",
-                "card": [
-                    {
-                        "heading": "Invoicing",
-                        "subHeading": "Automate your billing process with our user-friendly invoicing solutions, ensuring accuracy and efficiency in every transaction."
-                    },
-                    {
-                        "heading": "Support",
-                        "subHeading": "Receive unparalleled customer support with our responsive support system, helping you address queries and resolve issues quickly and effectively."
-                    },
-                    {
-                        "heading": "Surveying",
-                        "subHeading": "Enhance your understanding of customer needs and satisfaction with our advanced surveying tools, allowing you to easily collect and analyze data."
-                    }
-                ]
-            },
-            "experiences": {
-                "heading": "The energy of a start-up combined with 30 years of experience",
-                "subHeading": "Harnessing the innovative spirit of a start-up with three decades of industry expertise, we bring you solutions that drive growth and ensure long-term success.",
-                "card": [
-                    {
-                        "heading": "Awards received",
-                        "number": "15+",
-                        "subHeading": "Recognized for excellence in various domains, our team has received over 15 prestigious awards, showcasing our commitment to quality and innovation."
-                    },
-                    {
-                        "heading": "Clients served",
-                        "number": "500+",
-                        "subHeading": "We take pride in having served over 500 clients globally, delivering tailored solutions that meet their unique business needs and objectives."
-                    }
-                ]
-            },
-            "clientResearch": {
-                "heading": "Helping clients with research and strategy for their business",
-                "subHeadingOne": "We provide comprehensive research and strategic planning services to help your business thrive in a competitive market. Our expert team is dedicated to understanding your unique challenges and delivering tailored solutions that drive success.",
-                "subHeadingTwo": "By leveraging our extensive industry experience and innovative approach, we ensure that your business stays ahead of the curve. Let us help you navigate the complexities of today's market and achieve your strategic goals."
-            },
-            "JobVacancies": {
-                "heading": "Energy of a start-up combined with 30 years of experience."
-            },
-            "clientTestimonials": {
-                "heading": "Brightrix was a dream to work with",
-                "subHeading": "Working with Brightrix was a seamless and enjoyable experience. Their team of experts understood our needs perfectly and delivered exceptional solutions that exceeded our expectations. The level of professionalism and dedication they demonstrated was truly outstanding. We couldn't be happier with the results.",
-                "card": {
-                    "name": "Chikelu Neo",
-                    "title": "CEO at MazeAI"
-                }
-            },
-            "Blog": {
-                "heading": "Latest Blog & News",
-                "card": [
-                    {
-                        "heading": "Why you have to digitalize in 2021",
-                        "subHeading": "Adopting digital transformation in 2021 is crucial for staying competitive. Leverage technology to streamline operations and enhance customer experience."
-                    },
-                    {
-                        "heading": "Our internal process and longterm vision",
-                        "subHeading": "Our approach focuses on sustainable growth and continuous improvement. We prioritize internal efficiency and forward-thinking strategies to achieve long-term goals."
-                    },
-                    {
-                        "heading": "Helping the next generation of leaders",
-                        "subHeading": "We are dedicated to nurturing the leaders of tomorrow by providing the necessary tools, knowledge, and opportunities to succeed in an ever-evolving business landscape."
-                    }
-                ]
-            }
-        },
-        "aboutUs": {
-            "firstPage": {
-                "heading": "We value human, organizational, and operational intelligence, not just artificial",
-                "subHeading": "Our approach prioritizes the integration of human expertise, effective organizational structures, and streamlined operational processes, ensuring a balanced synergy with artificial intelligence to drive sustainable growth and innovation."
-            },
-            "secondPage": {
-                "heading": "The energy of a start-up combined with 30 years of experience",
-                "subHeading": "Harnessing the innovative drive of a start-up while leveraging three decades of expertise, we deliver exceptional solutions tailored to your business needs.",
-                "features": [
-                    {
-                        "number": "15+",
-                        "title": "Awards received",
-                        "description": "Recognized for excellence in various fields, our accolades reflect our commitment to quality and innovation."
-                    },
-                    {
-                        "number": "500+",
-                        "title": "Clients served",
-                        "description": "Proudly serving over 500 clients, we build lasting relationships by delivering superior service and results."
-                    },
-                    {
-                        "number": "34",
-                        "title": "Employees",
-                        "description": "Our dedicated team of professionals drives our success with their expertise and passion for excellence."
-                    },
-                    {
-                        "number": "130+",
-                        "title": "Custom solutions",
-                        "description": "Specializing in creating over 130 custom solutions, we tailor our services to meet unique client needs and challenges."
-                    }
-                ]
-            },
-            "thirdPage": {
-                "heading": "We want to get local identification in every corner of the world in this era of global citizenship.",
-                "subHeading": "By fostering deep connections with local communities worldwide, we aim to create a global network that celebrates and integrates diverse cultural identities, ensuring that everyone feels seen and valued in our interconnected world."
-            },
-            "fourthPage": {
-                "heading": "Teamwork is the only way we work",
-                "subHeading": "Collaborating effectively across all levels, we leverage our collective strengths to achieve shared goals and drive success. Together, we create innovative solutions and deliver outstanding results."
-            }
-        },
-        "services": {
-            "firstPage": {
-                "heading": "We serve clients with ground breaking solutions",
-                "subHeading": "Our innovative approach delivers cutting-edge solutions that drive transformation and success for our clients. We are committed to providing exceptional service and tailored strategies that meet the unique needs of each business."
-            },
-            "secondPage": {
-                "sectionLeft": {
-                    "first": {
-                        "heading": "Business strategy",
-                        "description": "Our business strategy services are designed to help organizations achieve their goals through effective planning and execution. We provide insights on cost strategy, differentiated product or service strategy, and niche strategy development.",
-                        "bullets": [
-                            "Cost strategy",
-                            "Differentiated product or service strategy",
-                            "Focus on a niche strategy"
-                        ]
-                    },
-                    "second": {
-                        "heading": "Risk assessment",
-                        "description": "Our risk assessment services identify potential risks and develop strategies to mitigate them. We offer individual risk assessments, system risk assessments, and mathematical conceptualization to ensure your business is prepared for any challenges.",
-                        "bullets": [
-                            "Individual risk assessment",
-                            "System risk assessment",
-                            "Mathematical conceptualization"
-                        ]
-                    },
-                    "third": {
-                        "heading": "Smart Contracts",
-                        "description": "Implement smart contracts to automate and secure your business transactions. Our services cover smart contract implementation, legal frameworks, and bespoke contract layers to ensure efficiency and security in your operations.",
-                        "bullets": [
-                            "Smart contract implementation",
-                            "Smart legal frameworks",
-                            "Bespoke contract layers"
-                        ]
-                    }
-                },
-                "sectionRight": {
-                    "first": {
-                        "heading": "Digitalization",
-                        "description": "Embrace digital transformation with our comprehensive digitalization services. We help businesses streamline operations, enhance customer experiences, and drive innovation by integrating advanced digital technologies into their processes."
-                    },
-                    "second": {
-                        "heading": "Artificial intelligence",
-                        "description": "Leverage the power of artificial intelligence to optimize your business processes and decision-making. Our AI services include data analysis, predictive modeling, and machine learning solutions tailored to your specific needs."
-                    }
-                }
-            }
-        },
-        "careers": {
-            "firstPage": {
-                "heading": "We hired people who are very passionate about what they do",
-                "subHeading": "Our team is composed of dedicated professionals who bring enthusiasm and expertise to every project. Their passion drives innovation and excellence, ensuring the highest quality outcomes for our clients."
-            },
-            "secondPage": {
-                "heading": "See our open positions ",
-                "card": [
-                    {
-                        "position": "Full Stack Developer",
-                        "place": "Sweden",
-                        "type": "Remote",
-                        "salary": "$30000 Per Annum",
-                        "experience": "4 to 5 Years",
-                        "department": "Website Design",
-                        "details": "Responsible for both front-end and back-end development, creating user interactions on websites, developing servers and databases for website functionality, and coding for mobile platforms.",
-                        "requirements": [
-                            "Design & Create highly engaging industry-related content in both photo, gif & video format",
-                            "Publish Posts on various social media channels",
-                            "Promote content on social networks and monitor engagement (e.g. comments and shares)",
-                            "Research industry-related topics",
-                            "Editing audio and sound design on projects"
-                        ],
-                        "responsibilities": [
-                            "Engage in opportunities to develop original content and concepts for web and mobile",
-                            "Create motion graphics and animations using 2D and 3D applications for marketing and promotional usage",
-                            "Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels"
-                        ],
-                        "applyText": "Apply Now"
-                    },
-                    {
-                        "position": "Testing Engineer",
-                        "place": "Canada",
-                        "type": "Hybrid",
-                        "salary": "$30000 Per Annum",
-                        "experience": "4 to 5 Years",
-                        "department": "Website Design",
-                        "details": "Design and execute test plans, identify and document software defects, and work closely with developers to resolve issues. Ensure that software applications are reliable and perform as expected.",
-                        "requirements": [
-                            "Design & Create highly engaging industry-related content in both photo, gif & video format",
-                            "Publish Posts on various social media channels",
-                            "Promote content on social networks and monitor engagement (e.g. comments and shares)",
-                            "Research industry-related topics",
-                            "Editing audio and sound design on projects"
-                        ],
-                        "responsibilities": [
-                            "Engage in opportunities to develop original content and concepts for web and mobile",
-                            "Create motion graphics and animations using 2D and 3D applications for marketing and promotional usage",
-                            "Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels"
-                        ],
-                        "applyText": "Apply Now"
-                    },
-                    {
-                        "position": "HR Manager+",
-                        "place": "England",
-                        "type": "Remote",
-                        "salary": "$30000 Per Annum",
-                        "experience": "4 to 5 Years",
-                        "department": "Website Design",
-                        "details": "Oversee all HR operations, including recruitment, employee relations, performance management, and compliance with labor laws. Develop and implement HR strategies and initiatives aligned with the overall business strategy.",
-                        "requirements": [
-                            "Design & Create highly engaging industry-related content in both photo, gif & video format",
-                            "Publish Posts on various social media channels",
-                            "Promote content on social networks and monitor engagement (e.g. comments and shares)",
-                            "Research industry-related topics",
-                            "Editing audio and sound design on projects"
-                        ],
-                        "responsibilities": [
-                            "Engage in opportunities to develop original content and concepts for web and mobile",
-                            "Create motion graphics and animations using 2D and 3D applications for marketing and promotional usage",
-                            "Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels"
-                        ],
-                        "applyText": "Apply Now"
-                    },
-                    {
-                        "position": "Golang Developer",
-                        "place": "Indonesia",
-                        "type": "On Site",
-                        "salary": "$30000 Per Annum",
-                        "experience": "4 to 5 Years",
-                        "department": "Website Design",
-                        "details": "Develop and maintain server-side applications using Golang. Collaborate with cross-functional teams to define, design, and ship new features. Optimize applications for maximum speed and scalability.",
-                        "requirements": [
-                            "Design & Create highly engaging industry-related content in both photo, gif & video format",
-                            "Publish Posts on various social media channels",
-                            "Promote content on social networks and monitor engagement (e.g. comments and shares)",
-                            "Research industry-related topics",
-                            "Editing audio and sound design on projects"
-                        ],
-                        "responsibilities": [
-                            "Engage in opportunities to develop original content and concepts for web and mobile",
-                            "Create motion graphics and animations using 2D and 3D applications for marketing and promotional usage",
-                            "Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels"
-                        ],
-                        "applyText": "Apply Now"
-                    },
-                    {
-                        "position": "React Developer",
-                        "place": "Singapore",
-                        "type": "Remote/Hybrid",
-                        "salary": "$30000 Per Annum",
-                        "experience": "4 to 5 Years",
-                        "department": "Website Design",
-                        "details": "Develop user interface components using React.js workflows such as Redux. Ensure that these components and the overall application are robust and easy to maintain. Coordinate with the rest of the team working on different layers of the infrastructure.",
-                        "requirements": [
-                            "Design & Create highly engaging industry-related content in both photo, gif & video format",
-                            "Publish Posts on various social media channels",
-                            "Promote content on social networks and monitor engagement (e.g. comments and shares)",
-                            "Research industry-related topics",
-                            "Editing audio and sound design on projects"
-                        ],
-                        "responsibilities": [
-                            "Engage in opportunities to develop original content and concepts for web and mobile",
-                            "Create motion graphics and animations using 2D and 3D applications for marketing and promotional usage",
-                            "Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels"
-                        ],
-                        "applyText": "Apply Now"
-                    }
-                ]
-            }
-        },
-        "blog": {
-            "firstPage": {
-                "id": 0,
-                "name": "Andrew Jonson",
-                "date": "Posted on 27th January 2021",
-                "heading": "Our Internal Process and Longerm Vision",
-                "subHeading": "Committed to excellence, our streamlined internal processes and forward-thinking vision drive innovation and sustainable growth, ensuring we meet the evolving needs of our clients and industry."
-            },
-            "cards": [
+        "shop": {
+            "card": [
                 {
-                    "id": 0,
-                    "heading": "Our Internal Process and Longerm Vision",
-                    "subHeading": "Committed to excellence, our streamlined internal processes and forward-thinking vision drive innovation and sustainable growth, ensuring we meet the evolving needs of our clients and industry.",
-                    "content": [
-                        "Navigating the Future: Embracing Innovation and Continuous Improvement",
-                        "In today's rapidly evolving business environment, having a clear and effective internal process is crucial for sustainable growth. As the marketplace continues to transform at an unprecedented pace, companies must remain agile, innovative, and forward-thinking to stay competitive. Our approach is centered around innovation and continuous improvement, ensuring that we not only meet but exceed the expectations of our clients.",
-                        "At the heart of our strategy is a commitment to embracing new technologies and methodologies. By leveraging cutting-edge tools and techniques, we streamline our operations, enhance productivity, and deliver superior outcomes. Our dedication to continuous improvement means we are always looking for ways to refine our processes, optimize performance, and drive efficiencies. This proactive stance enables us to respond swiftly to challenges and seize new opportunities as they arise.",
-                        "Vision for the Future: Creating a Dynamic and Adaptable Business Model",
-                        "Our vision is to create a dynamic and adaptable business model that can respond to the ever-changing market demands. The business landscape is in a state of constant flux, influenced by technological advancements, economic shifts, and evolving consumer preferences. To thrive in such an environment, we must be prepared to pivot and adapt our strategies accordingly.",
-                        "By fostering a culture of excellence and collaboration, we aim to drive meaningful change and deliver exceptional value to our stakeholders. We believe that the collective expertise and creativity of our team are our greatest assets. Encouraging open communication, teamwork, and continuous learning empowers our employees to contribute their best ideas and efforts towards our shared goals.",
-                        "Driving Innovation through Collaboration",
-                        "Innovation is not a solitary endeavor; it thrives in an environment where diverse perspectives and skills come together. We are committed to building a collaborative ecosystem that encourages innovation at every level. By breaking down silos and promoting cross-functional teamwork, we create a fertile ground for innovative ideas to flourish.",
-                        "Our collaborative approach extends beyond our internal teams. We actively seek partnerships and alliances with other industry leaders, academic institutions, and technology providers. These collaborations enable us to stay at the forefront of industry trends, access new knowledge, and co-create solutions that address complex challenges.",
-                        "Delivering Exceptional Value",
-                        "Ultimately, our goal is to deliver exceptional value to our stakeholders—clients, employees, partners, and the communities we serve. We measure our success not just by financial performance but by the positive impact we create. Whether it's through providing top-notch services, fostering employee growth, or contributing to social and environmental causes, we are dedicated to making a meaningful difference.",
-                        "In conclusion, the key to sustainable growth in today's business environment lies in our ability to innovate, adapt, and continuously improve. By nurturing a culture of excellence and collaboration, we are well-positioned to navigate the future, respond to market demands, and deliver outstanding value to all our stakeholders."
+                    "name": "Trenton Modular Sofa",
+                    "price": "$700.00",
+                    "image": "images/Shop/Image Shop 1.png",
+                    "title": "trenton-modular-sofa",
+                    "description": "A stylish modular sofa that fits perfectly in any modern living room.",
+                    "sku": "SKU001",
+                    "category": "Sofas",
+                    "tags": ["Sofa", "Living Room"],
+                    "reviews": 5,
+                    "rating": 4,
+                    "sizes": ["L", "XL", "XS"],
+                    "related": [
+                        "granite-dining-table-with-chairs",
+                        "outdoor-bar-table-and-stool",
+                        "plain-console-with-teak-mirror",
+                        "kent-coffee-table",
+                        "round-coffee-table"
                     ]
                 },
                 {
+                    "name": "Granite Dining Table with Chairs",
+                    "price": "$1200.00",
+                    "image": "images/Shop/Image Shop 2.png",
+                    "title": "granite-dining-table-with-chairs",
+                    "description": "A beautiful granite dining table that comes with matching chairs.",
+                    "sku": "SKU002",
+                    "category": "Dining",
+                    "tags": ["Table", "Dining", "Chairs"],
+                    "reviews": 8,
+                    "rating": 5,
+                    "sizes": ["M", "L"],
+                    "related": [
+                        "trenton-modular-sofa",
+                        "wooden-dining-table",
+                        "wooden-armoire",
+                        "plain-console-with-teak-mirror",
+                        "grain-coffee-table"
+                    ]
+                },
+                {
+                    "name": "Outdoor Bar Table and Stool",
+                    "price": "$450.00",
+                    "image": "images/Shop/Image Shop 3.png",
+                    "title": "outdoor-bar-table-and-stool",
+                    "description": "Perfect for outdoor parties and gatherings.",
+                    "sku": "SKU003",
+                    "category": "Outdoor",
+                    "tags": ["Table", "Stool", "Outdoor"],
+                    "reviews": 10,
+                    "rating": 3,
+                    "sizes": ["S", "M"],
+                    "related": [
+                        "granite-dining-table-with-chairs",
+                        "wooden-dining-table",
+                        "wooden-outdoor-sofa-set",
+                        "kent-coffee-table",
+                        "reclaimed-teak-coffee-table"
+                    ]
+                },
+                {
+                    "name": "Plain Console with Teak Mirror",
+                    "price": "$350.00",
+                    "image": "images/Shop/Image Shop 4.png",
+                    "title": "plain-console-with-teak-mirror",
+                    "description": "A minimalistic console table with a beautiful teak mirror.",
+                    "sku": "SKU004",
+                    "category": "Furniture",
+                    "tags": ["Console", "Mirror", "Teak"],
+                    "reviews": 6,
+                    "rating": 4,
+                    "sizes": ["XS", "S", "M"],
+                    "related": [
+                        "wooden-armoire",
+                        "kent-coffee-table",
+                        "round-coffee-table",
+                        "grain-coffee-table",
+                        "trenton-modular-sofa"
+                    ]
+                },
+                {
+                    "name": "Grain Coffee Table",
+                    "price": "$150.00",
+                    "image": "images/Shop/Image Shop 5.png",
+                    "title": "grain-coffee-table",
+                    "description": "A stylish coffee table with a grain finish.",
+                    "sku": "SKU005",
+                    "category": "Tables",
+                    "tags": ["Coffee Table", "Living Room"],
+                    "reviews": 4,
+                    "rating": 5,
+                    "sizes": ["L", "XL", "XS"],
+                    "related": [
+                        "trenton-modular-sofa",
+                        "wooden-dining-table",
+                        "wooden-armoire",
+                        "plain-console-with-teak-mirror",
+                        "reclaimed-teak-coffee-table"
+                    ]
+                },
+                {
+                    "name": "Kent Coffee Table",
+                    "price": "$200.00",
+                    "image": "images/Shop/Image Shop 6.png",
+                    "title": "kent-coffee-table",
+                    "description": "A modern coffee table with a sleek design.",
+                    "sku": "SKU006",
+                    "category": "Tables",
+                    "tags": ["Coffee Table", "Living Room"],
+                    "reviews": 7,
+                    "rating": 3,
+                    "sizes": ["M", "L"],
+                    "related": [
+                        "grain-coffee-table",
+                        "round-coffee-table",
+                        "reclaimed-teak-coffee-table",
+                        "trenton-modular-sofa",
+                        "wooden-dining-table"
+                    ]
+                },
+                {
+                    "name": "Round Coffee Table",
+                    "price": "$180.00",
+                    "image": "images/Shop/Image Shop 7.png",
+                    "title": "round-coffee-table",
+                    "description": "A round coffee table that fits any modern decor.",
+                    "sku": "SKU007",
+                    "category": "Tables",
+                    "tags": ["Coffee Table", "Living Room"],
+                    "reviews": 5,
+                    "rating": 4,
+                    "sizes": ["S", "M"],
+                    "related": [
+                        "kent-coffee-table",
+                        "plain-console-with-teak-mirror",
+                        "wooden-lounge-set",
+                        "wooden-armoire",
+                        "grain-coffee-table"
+                    ]
+                },
+                {
+                    "name": "Reclaimed Teak Coffee Table",
+                    "price": "$300.00",
+                    "image": "images/Shop/Image Shop 8.png",
+                    "title": "reclaimed-teak-coffee-table",
+                    "description": "A reclaimed teak coffee table that adds a rustic touch.",
+                    "sku": "SKU008",
+                    "category": "Tables",
+                    "tags": ["Coffee Table", "Living Room", "Teak"],
+                    "reviews": 8,
+                    "rating": 5,
+                    "sizes": ["XS", "S", "M"],
+                    "related": [
+                        "grain-coffee-table",
+                        "kent-coffee-table",
+                        "round-coffee-table",
+                        "wooden-armoire",
+                        "plain-console-with-teak-mirror"
+                    ]
+                },
+                {
+                    "name": "Wooden Dining Table",
+                    "price": "$600.00",
+                    "image": "images/Shop/Image Shop 9.png",
+                    "title": "wooden-dining-table",
+                    "description": "A sturdy wooden dining table perfect for family meals.",
+                    "sku": "SKU009",
+                    "category": "Dining",
+                    "tags": ["Dining Table", "Wooden"],
+                    "reviews": 12,
+                    "rating": 5,
+                    "sizes": ["L", "XL", "XS"],
+                    "related": [
+                        "granite-dining-table-with-chairs",
+                        "wooden-armoire",
+                        "wooden-sofa-set-with-blue-cushions",
+                        "trenton-modular-sofa",
+                        "plain-console-with-teak-mirror"
+                    ]
+                },
+                {
+                    "name": "Wooden Armoire",
+                    "price": "$800.00",
+                    "image": "images/Shop/Image Shop 10.png",
+                    "title": "wooden-armoire",
+                    "description": "A spacious wooden armoire for all your storage needs.",
+                    "sku": "SKU010",
+                    "category": "Furniture",
+                    "tags": ["Armoire", "Storage"],
+                    "reviews": 9,
+                    "rating": 4,
+                    "sizes": ["M", "L"],
+                    "related": [
+                        "trenton-modular-sofa",
+                        "grain-coffee-table",
+                        "reclaimed-teak-coffee-table",
+                        "wooden-lounge-set",
+                        "plain-console-with-teak-mirror"
+                    ]
+                },
+                {
+                    "name": "Wooden Lounge Set",
+                    "price": "$900.00",
+                    "image": "images/Shop/Image Shop 11.png",
+                    "title": "wooden-lounge-set",
+                    "description": "A comfortable wooden lounge set for your living room.",
+                    "sku": "SKU011",
+                    "category": "Furniture",
+                    "tags": ["Lounge Set", "Living Room"],
+                    "reviews": 11,
+                    "rating": 5,
+                    "sizes": ["S", "M"],
+                    "related": [
+                        "wooden-dining-table",
+                        "wooden-armoire",
+                        "wooden-chairs-and-table-set",
+                        "trenton-modular-sofa",
+                        "granite-dining-table-with-chairs"
+                    ]
+                },
+                {
+                    "name": "Wooden Chairs and Table Set",
+                    "price": "$700.00",
+                    "image": "images/Shop/Image Shop 12.png",
+                    "title": "wooden-chairs-and-table-set",
+                    "description": "A classic wooden chairs and table set.",
+                    "sku": "SKU012",
+                    "category": "Furniture",
+                    "tags": ["Chairs", "Table", "Wooden"],
+                    "reviews": 10,
+                    "rating": 4,
+                    "sizes": ["XS", "S", "M"],
+                    "related": [
+                        "wooden-dining-table",
+                        "kent-coffee-table",
+                        "cream-sofa",
+                        "plain-console-with-teak-mirror",
+                        "outdoor-bar-table-and-stool"
+                    ]
+                },
+                {
+                    "name": "Square Wooden Coffee Table",
+                    "price": "$220.00",
+                    "image": "images/Shop/Image Shop 13.png",
+                    "title": "square-wooden-coffee-table",
+                    "description": "A square wooden coffee table with a modern design.",
+                    "sku": "SKU013",
+                    "category": "Tables",
+                    "tags": ["Coffee Table", "Living Room"],
+                    "reviews": 3,
+                    "rating": 5,
+                    "sizes": ["L", "XL", "XS"],
+                    "related": [
+                        "trenton-modular-sofa",
+                        "outdoor-bar-table-and-stool",
+                        "granite-dining-table-with-chairs",
+                        "reclaimed-teak-coffee-table",
+                        "wooden-lounge-set"
+                    ]
+                },
+                {
+                    "name": "Wooden Sofa Set with Blue Cushions",
+                    "price": "$1200.00",
+                    "image": "images/Shop/Image Shop 14.png",
+                    "title": "wooden-sofa-set-with-blue-cushions",
+                    "description": "A wooden sofa set with comfortable blue cushions.",
+                    "sku": "SKU014",
+                    "category": "Sofas",
+                    "tags": ["Sofa", "Living Room"],
+                    "reviews": 7,
+                    "rating": 4,
+                    "sizes": ["M", "L"],
+                    "related": [
+                        "wooden-lounge-set",
+                        "cream-sofa",
+                        "wooden-dining-table",
+                        "plain-console-with-teak-mirror",
+                        "kent-coffee-table"
+                    ]
+                },
+                {
+                    "name": "Cream Sofa",
+                    "price": "$1100.00",
+                    "image": "images/Shop/Image Shop 15.png",
+                    "title": "cream-sofa",
+                    "description": "A stylish cream sofa that complements any decor.",
+                    "sku": "SKU015",
+                    "category": "Sofas",
+                    "tags": ["Sofa", "Living Room"],
+                    "reviews": 6,
+                    "rating": 5,
+                    "sizes": ["S", "M"],
+                    "related": [
+                        "wooden-lounge-set",
+                        "wooden-sofa-set-with-blue-cushions",
+                        "wooden-chairs-and-table-set",
+                        "grain-coffee-table",
+                        "outdoor-bar-table-and-stool"
+                    ]
+                },
+                {
+                    "name": "Wooden Outdoor Sofa Set",
+                    "price": "$1300.00",
+                    "image": "images/Shop/Image Shop 16.png",
+                    "title": "wooden-outdoor-sofa-set",
+                    "description": "A durable wooden outdoor sofa set perfect for your patio.",
+                    "sku": "SKU016",
+                    "category": "Outdoor",
+                    "tags": ["Outdoor", "Sofa Set"],
+                    "reviews": 8,
+                    "rating": 4,
+                    "sizes": ["XS", "S", "M"],
+                    "related": [
+                        "outdoor-bar-table-and-stool",
+                        "granite-dining-table-with-chairs",
+                        "wooden-dining-table",
+                        "plain-console-with-teak-mirror",
+                        "wooden-armoire"
+                    ]
+                }
+            ]
+        },
+        "blog": {
+            "card": [
+                {
                     "id": 1,
-                    "heading": "Harnessing AI for Business Growth",
-                    "subHeading": "Discover how artificial intelligence can transform your business operations and drive unprecedented growth.",
+                    "title": "choosing-the-right-furniture",
+                    "heading": "Choosing the Right Furniture",
+                    "subheading": "Comprehensive Guide to Selecting Furniture for Your Home",
+                    "isFeatured": true,
+                    "image": "/images/Blog/Blog Image 1.png",
+                    "name": "John Doe",
+                    "date": "27 January 2021",
+                    "category": "Guide",
                     "content": [
-                        "Harnessing AI for Business Growth",
-                        "Artificial Intelligence (AI) is revolutionizing the way businesses operate, offering unprecedented opportunities for growth and efficiency. From automating routine tasks to providing deep insights through data analysis, AI enables companies to streamline their operations and focus on strategic initiatives.",
-                        "One of the key areas where AI is making a significant impact is in customer service. AI-powered chatbots and virtual assistants can handle a large volume of customer inquiries, providing quick and accurate responses, and freeing up human agents to handle more complex issues. This not only improves the efficiency of customer service but also enhances the customer experience by providing 24/7 support.",
-                        "AI is also transforming marketing strategies. With advanced algorithms, businesses can analyze consumer behavior and preferences to create highly personalized marketing campaigns. This targeted approach not only improves customer engagement but also increases conversion rates. By utilizing predictive analytics, companies can anticipate customer needs and tailor their offerings to meet those needs more effectively.",
-                        "In addition to enhancing customer interactions and marketing efforts, AI is driving innovation in product development. By analyzing market trends and consumer feedback, AI tools can help companies identify new opportunities and develop products that meet the evolving needs of their customers. This data-driven approach reduces the time and cost associated with product development, enabling companies to bring new products to market faster and more efficiently.",
-                        "AI's impact extends to supply chain management as well. Through predictive analytics and real-time data processing, AI can optimize supply chain operations, forecast demand more accurately, and reduce inventory costs. This leads to a more responsive and resilient supply chain, capable of adapting to changes in the market and ensuring timely delivery of products.",
-                        "Moreover, AI is enhancing decision-making processes across all levels of the organization. By providing actionable insights from vast amounts of data, AI enables executives to make informed decisions that drive business growth. This strategic use of AI helps organizations to identify trends, assess risks, and capitalize on new opportunities, fostering a culture of innovation and continuous improvement.",
-                        "As AI continues to evolve, businesses that embrace this technology will be well-positioned to achieve sustained growth and competitive advantage. It's essential for organizations to stay ahead of the curve and leverage AI to its full potential. Investing in AI not only enhances operational efficiency but also opens up new avenues for revenue generation and market expansion.",
-                        "In conclusion, the integration of AI into business operations is no longer a luxury but a necessity. Companies that harness the power of AI will be able to innovate more rapidly, respond to customer needs more effectively, and navigate the complexities of the modern business landscape with greater agility. As we move forward, the role of AI in driving business growth will only become more pronounced, making it a critical component of any forward-thinking business strategy."
+                        "Selecting the right furniture for your home involves considering style, comfort, and functionality. Here's how you can make the best choice...",
+                        "Start by assessing your space and determining the type of furniture that suits your needs. Consider the size, layout, and existing décor of your rooms. Measure your space accurately to ensure the furniture you choose fits perfectly without overwhelming the room. Think about the traffic flow and how the furniture placement will affect movement within the space.",
+                        "Next, think about the primary function of the furniture. Are you looking for a comfortable sofa for the living room, a sturdy dining table for family meals, or a functional desk for your home office? Identify your priorities and select pieces that fulfill those needs. Multi-functional furniture can be a great option, especially for smaller spaces.",
+                        "Quality is another crucial factor. Investing in well-made furniture ensures durability and longevity. Look for solid construction, high-quality materials, and good craftsmanship. While quality furniture might come with a higher price tag, it offers better value in the long run. Pay attention to details like joinery, finish, and the type of wood or fabric used.",
+                        "Don't forget about comfort. Test out furniture in person whenever possible to ensure it's comfortable and supportive. For sofas and chairs, consider the cushioning and upholstery. For beds, think about the mattress and bed frame. Comfort is subjective, so choose pieces that feel right for you and your family.",
+                        "Style is also important. Choose furniture that complements your personal taste and the overall aesthetic of your home. Whether you prefer modern, traditional, or eclectic styles, make sure your furniture reflects your unique personality. Consider creating a mood board or browsing design magazines for inspiration.",
+                        "Finally, consider the practicality of the furniture. Opt for pieces that are easy to maintain and clean. Think about the material and finish, especially if you have pets or children. Practical furniture not only looks good but also stands up to everyday use. Consider features like removable cushion covers or stain-resistant fabrics.",
+                        "Set a realistic budget for your furniture purchases. While it can be tempting to go for the cheapest options, investing in quality pieces will save you money in the long run. Prioritize the most essential items and plan your purchases accordingly. Look out for sales, discounts, and financing options that can help you stay within your budget.",
+                        "Take your time to research and compare different options before making a final decision. Read reviews, visit showrooms, and seek advice from friends or family who have experience with certain brands or types of furniture. Remember, the right furniture should enhance your living space, providing comfort, functionality, and style for years to come.",
+                        "Different materials offer varying levels of durability, comfort, and maintenance requirements. Common materials include wood, metal, glass, and upholstered fabrics. Each material has its own advantages and disadvantages, so choose based on your specific needs and preferences. Additionally, understanding the basics of furniture construction, such as the types of joints and finishes, can help you assess the quality of the pieces you are considering.",
+                        "Consider whether you want custom-made furniture or ready-made pieces. Custom furniture can be tailored to your exact specifications, offering a perfect fit for your space and personal style. However, it can be more expensive and take longer to produce. Ready-made furniture is more affordable and immediately available but may not offer the same level of personalization.",
+                        "If environmental impact is a concern, look for furniture made from sustainable materials and produced by companies with eco-friendly practices. Reclaimed wood, bamboo, and recycled materials are popular choices for eco-conscious consumers. Additionally, many furniture brands are committed to reducing their carbon footprint and promoting sustainability."
                     ]
                 },
                 {
                     "id": 2,
-                    "heading": "The Art of Effective Leadership",
-                    "subHeading": "Master the essential skills and strategies required to lead your team to success in today's dynamic environment.",
+                    "title": "top-trends-in-furniture-design",
+                    "heading": "Top Trends in Furniture Design",
+                    "subheading": "Exploring the Latest Modern Furniture Trends",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 2.png",
+                    "name": "Jane Smith",
+                    "date": "15 February 2021",
+                    "category": "Trends",
                     "content": [
-                        "The Art of Effective Leadership",
-                        "Effective leadership is crucial for the success of any organization. A good leader not only sets a clear vision but also inspires and motivates their team to achieve common goals. One of the key traits of an effective leader is the ability to communicate clearly and effectively. This involves articulating a compelling vision, setting clear expectations, and providing regular feedback to ensure everyone is aligned and engaged.",
-                        "Leaders must be able to articulate their vision and expectations to their team. This involves not only conveying information but also listening to feedback and fostering an open and inclusive communication environment. By actively listening and valuing the input of team members, leaders can build trust and create a culture of collaboration and mutual respect.",
-                        "Another important aspect of leadership is emotional intelligence. Leaders who are aware of their own emotions and those of their team members can create a supportive and collaborative work environment. This emotional awareness helps in resolving conflicts and building strong interpersonal relationships. Leaders with high emotional intelligence are able to empathize with their team, understand their needs, and respond appropriately, creating a positive and productive work environment.",
-                        "Decision-making is another critical skill for leaders. Effective leaders are able to make informed decisions quickly, taking into account the available data and the potential impact on the organization. They also involve their team in the decision-making process, ensuring that everyone feels valued and heard. By fostering a participative decision-making process, leaders can harness the collective intelligence of their team, leading to more innovative and effective solutions.",
-                        "Finally, effective leaders lead by example. They demonstrate the values and behaviors they expect from their team, setting a standard for others to follow. By embodying integrity, accountability, and resilience, leaders can inspire their team to achieve excellence. Leading by example also means being willing to take on challenges, admit mistakes, and continuously seek personal and professional growth.",
-                        "In addition to these core attributes, effective leaders are also adaptable and forward-thinking. They are able to navigate the complexities of today's dynamic business environment by staying informed about industry trends, embracing change, and continuously seeking new opportunities for growth and improvement. This proactive and adaptive approach enables leaders to guide their organizations through uncertainty and position them for long-term success.",
-                        "Mentorship and development are also key components of effective leadership. Great leaders invest in the growth and development of their team members, providing guidance, resources, and opportunities for learning and advancement. By prioritizing the professional development of their team, leaders can cultivate a high-performing and motivated workforce that is equipped to meet future challenges.",
-                        "In conclusion, the art of effective leadership encompasses a range of skills and strategies that are essential for driving organizational success. From clear communication and emotional intelligence to informed decision-making and leading by example, effective leaders inspire and empower their teams to achieve their full potential. By continuously developing these leadership qualities and adapting to the evolving business landscape, leaders can ensure sustained success and growth for their organizations."
+                        "Staying updated with the latest trends in furniture design is essential for creating a stylish and contemporary home. From minimalist styles to bold colors, discover what's popular in the furniture world.",
+                        "Minimalism continues to dominate furniture design trends. Clean lines, simple shapes, and a focus on functionality characterize minimalist furniture. This style emphasizes the idea that less is more, creating a clutter-free and serene environment. Furniture pieces in this trend often feature neutral colors, sleek finishes, and multifunctional uses, making them perfect for modern living spaces.",
+                        "With a growing awareness of environmental impact, sustainable furniture is becoming increasingly popular. Furniture made from reclaimed wood, recycled materials, and sustainably sourced timber is in high demand. These pieces not only contribute to eco-friendly living but also add unique character and charm to any space. Many designers are now focusing on creating beautiful, sustainable furniture that doesn't compromise on style or quality.",
+                        "While neutral tones remain popular, bold colors and patterns are making a comeback in furniture design. Vibrant hues and eye-catching prints can add personality and flair to any room. From brightly colored sofas to patterned accent chairs, incorporating bold elements can create a dynamic and inviting atmosphere. This trend encourages homeowners to experiment with color and make bold statements with their furniture choices.",
+                        "As living spaces become more compact, the demand for multi-functional furniture is on the rise. Pieces that serve multiple purposes, such as sofa beds, extendable dining tables, and storage ottomans, offer practicality without sacrificing style. Multi-functional furniture is ideal for maximizing space in smaller homes and apartments, providing versatile solutions for modern living.",
+                        "Retro and vintage furniture styles are experiencing a revival, with mid-century modern designs being particularly popular. These pieces often feature clean lines, organic shapes, and a mix of materials such as wood, metal, and glass. Vintage furniture brings a sense of nostalgia and timeless elegance to any interior, blending seamlessly with modern decor elements. Incorporating vintage pieces can add depth and character to your space.",
+                        "Handcrafted and artisanal furniture is gaining appreciation in the design world. Consumers are increasingly valuing the uniqueness and quality of handmade pieces. This trend supports local artisans and promotes a connection to the craftsmanship and story behind each piece. Handcrafted furniture often features intricate details and superior construction, making it a worthwhile investment.",
+                        "Technology integration is becoming more common in furniture design. From built-in charging stations and adjustable features to smart furniture with integrated lighting and speakers, technology-enhanced furniture is on the rise. This trend reflects the growing integration of technology into our daily lives, offering both convenience and modern aesthetics.",
+                        "Staying ahead of furniture design trends can help you create a home that is both stylish and functional. Whether you prefer the clean lines of minimalism, the sustainability of eco-friendly materials, the boldness of vibrant colors, the versatility of multi-functional pieces, the charm of vintage styles, the uniqueness of handcrafted furniture, or the innovation of tech-integrated designs, there's a trend that can suit your preferences and enhance your living space."
                     ]
                 },
                 {
                     "id": 3,
-                    "heading": "Sustainability in the Modern World",
-                    "subHeading": "Explore innovative approaches to integrating sustainability into your business model for long-term benefits.",
+                    "title": "caring-for-your-wooden-furniture",
+                    "heading": "Caring for Your Wooden Furniture",
+                    "subheading": "Comprehensive Maintenance Tips for Wooden Furniture",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 3.png",
+                    "name": "Alice Johnson",
+                    "date": "5 March 2021",
+                    "category": "Maintenance",
                     "content": [
-                        "Sustainability in the Modern World",
-                        "Sustainability is becoming increasingly important in the modern world as businesses and consumers alike recognize the need to protect our planet for future generations. Integrating sustainability into your business model not only helps the environment but also offers significant long-term benefits. Companies that prioritize sustainability can enhance their brand reputation, attract eco-conscious consumers, and reduce operational costs through efficient resource management.",
-                        "One of the first steps in creating a sustainable business is to conduct a thorough assessment of your current operations. Identify areas where you can reduce waste, conserve resources, and minimize your carbon footprint. This might involve adopting energy-efficient technologies, reducing water usage, and implementing recycling programs. Conducting a sustainability audit can provide valuable insights into your environmental impact and highlight opportunities for improvement.",
-                        "Another key aspect of sustainability is sourcing materials responsibly. This means choosing suppliers that adhere to ethical and environmental standards. By sourcing sustainable materials, you can reduce the environmental impact of your products and support fair labor practices. Establishing a transparent supply chain and working with suppliers committed to sustainability can also enhance your company's credibility and build trust with consumers.",
-                        "Innovation plays a crucial role in sustainability. Invest in research and development to create products that are not only high-quality but also environmentally friendly. This could include designing products that are reusable, recyclable, or made from sustainable materials. Innovative packaging solutions, such as biodegradable or compostable materials, can also significantly reduce your environmental footprint. Additionally, exploring circular economy models, where products are designed for reuse and recycling, can contribute to long-term sustainability.",
-                        "Finally, sustainability should be an integral part of your company's culture. Educate your employees about the importance of sustainability and encourage them to adopt eco-friendly practices both at work and in their personal lives. By fostering a culture of sustainability, you can drive meaningful change and set your business up for long-term success. Implementing green initiatives, such as reducing paper usage, promoting remote work to cut down on commuting, and supporting community environmental projects, can further embed sustainability into your corporate ethos.",
-                        "Collaboration is also essential in achieving sustainability goals. Partner with other businesses, non-profit organizations, and government agencies to share best practices, resources, and innovations. Collaborative efforts can amplify your impact and lead to more significant environmental and social benefits. Engaging with stakeholders, including customers, employees, and local communities, can provide valuable feedback and support for your sustainability initiatives.",
-                        "In conclusion, integrating sustainability into your business model is not just a trend but a necessity for long-term success. By conducting thorough assessments, sourcing responsibly, investing in innovation, fostering a sustainable culture, and collaborating with others, businesses can create a positive impact on the environment and society. Embracing sustainability can lead to increased operational efficiency, improved brand reputation, and stronger relationships with stakeholders, ultimately driving sustainable growth and profitability."
+                        "Caring for your wooden furniture is essential to keep it looking its best and ensure its longevity. Here are some comprehensive tips to help you maintain your wooden pieces effectively.",
+                        "Wooden furniture requires regular maintenance to keep it looking its best. Learn the best practices for cleaning and caring for your wooden pieces...",
+                        "Dust your wooden furniture regularly to prevent the buildup of dirt and grime. Use a soft, lint-free cloth to gently wipe down surfaces. For hard-to-reach areas, a soft-bristled brush can be effective. Regular dusting helps to maintain the luster of the wood and prevent scratches caused by abrasive particles.",
+                        "Avoid using harsh chemicals or abrasive cleaners on wooden furniture. Instead, opt for a mild soap solution or a cleaner specifically designed for wood. Always test any cleaner on a small, inconspicuous area first to ensure it doesn't damage the finish. Gentle cleaning solutions help preserve the wood's natural beauty and prevent damage.",
+                        "Polishing your wooden furniture can help maintain its shine and protect the surface. Use a high-quality furniture polish and apply it according to the manufacturer's instructions. Avoid over-polishing, as this can lead to a sticky residue buildup. Polishing not only enhances the appearance of the wood but also provides a protective layer against dust and moisture.",
+                        "Protect your wooden furniture from direct sunlight, as UV rays can cause fading and discoloration over time. If possible, position your furniture away from windows or use curtains and blinds to block out sunlight during peak hours. Sunlight can bleach the wood, leading to uneven coloration and weakening of the wood fibers.",
+                        "Temperature and humidity fluctuations can affect wooden furniture. Aim to keep your home at a consistent temperature and humidity level to prevent warping, cracking, or splitting. Using a humidifier or dehumidifier can help maintain the ideal environment for your furniture. Wood is a natural material that expands and contracts with changes in humidity, so maintaining a stable environment is crucial.",
+                        "Be mindful of moisture and spills. Wipe up any spills immediately to prevent stains and water damage. Use coasters, placemats, and tablecloths to protect surfaces from hot dishes, glasses, and other items that could cause damage. Water can cause wood to swell, warp, or develop unsightly stains, so it's important to address spills promptly.",
+                        "Consider applying a protective finish or wax to your wooden furniture. This can provide an additional layer of protection against scratches, spills, and everyday wear and tear. Follow the manufacturer's recommendations for the best results. A protective finish not only safeguards the wood but also enhances its natural beauty and makes cleaning easier.",
+                        "Avoid placing wooden furniture near heat sources such as radiators, fireplaces, or heating vents. Excessive heat can dry out the wood, leading to cracks and splits. Maintain a safe distance between your furniture and heat sources to preserve its integrity.",
+                        "Rotate accessories and decor items placed on wooden surfaces to avoid uneven fading and wear. Moving items like lamps, vases, and picture frames occasionally can prevent permanent marks and ensure even exposure to light and air.",
+                        "If your wooden furniture develops scratches or minor damage, consider using a touch-up marker or wood filler to repair it. For deeper scratches and dents, professional restoration services can help restore the furniture to its original condition.",
+                        "For antique or valuable wooden furniture, consult a professional conservator for advice on preservation and maintenance. They can provide specialized care and techniques to protect your valuable pieces and ensure their longevity.",
+                        "By following these comprehensive maintenance tips, you can keep your wooden furniture looking beautiful and prolong its lifespan. Regular care and attention will ensure that your wooden pieces remain a cherished part of your home for years to come."
                     ]
                 },
                 {
                     "id": 4,
-                    "heading": "Navigating Digital Transformation",
-                    "subHeading": "A comprehensive guide to successfully implementing digital transformation in your organization.",
+                    "title": "space-saving-furniture-ideas",
+                    "heading": "Space-Saving Furniture Ideas",
+                    "subheading": "Innovative Solutions for Maximizing Small Spaces in Your Home",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 4.png",
+                    "name": "Robert Brown",
+                    "date": "10 April 2021",
+                    "category": "Ideas",
                     "content": [
-                        "Navigating Digital Transformation",
-                        "Digital transformation is reshaping industries across the globe, offering organizations the opportunity to enhance their operations and deliver better value to their customers. Successfully navigating digital transformation requires a strategic approach and a commitment to continuous improvement. Embracing digital transformation can lead to increased efficiency, improved customer experiences, and the creation of new business models that drive growth and innovation.",
-                        "The first step in digital transformation is to assess your current digital capabilities and identify areas for improvement. This involves evaluating your existing technologies, processes, and workflows to determine where digital solutions can have the greatest impact. Conducting a comprehensive digital audit can help you understand your organization's current state and identify gaps that need to be addressed. This assessment should also consider the digital maturity of your industry and competitors to benchmark your progress.",
-                        "Next, develop a clear digital strategy that aligns with your business goals. This strategy should outline the technologies you plan to implement, the processes you will digitize, and the expected outcomes. It's important to involve key stakeholders in this process to ensure buy-in and support. A successful digital strategy should be customer-centric, focusing on enhancing the customer experience through the use of digital tools and platforms. Additionally, it should be flexible enough to adapt to changing market conditions and technological advancements.",
-                        "Implementing digital transformation often requires significant changes to your organization's structure and culture. Encourage a mindset of innovation and agility among your employees. Provide training and resources to help them adapt to new technologies and ways of working. Creating a culture that embraces change is essential for the success of digital transformation initiatives. Leaders should model this behavior by demonstrating a willingness to experiment, take risks, and learn from failures. Establishing cross-functional teams can also facilitate collaboration and innovation, breaking down silos and fostering a more integrated approach to digital transformation.",
-                        "Finally, measure the success of your digital transformation efforts. Use key performance indicators (KPIs) to track progress and identify areas for further improvement. By continuously monitoring and refining your digital strategy, you can ensure that your organization remains competitive in the digital age. KPIs might include metrics such as customer satisfaction, operational efficiency, revenue growth, and digital adoption rates. Regularly reviewing these metrics can help you make data-driven decisions and adjust your strategy as needed.",
-                        "In addition to these steps, it's crucial to stay informed about emerging technologies and trends in digital transformation. Technologies such as artificial intelligence, machine learning, blockchain, and the Internet of Things (IoT) are rapidly evolving and can offer new opportunities for innovation and efficiency. By staying ahead of the curve, you can leverage these technologies to maintain a competitive edge and drive continuous improvement within your organization.",
-                        "In conclusion, navigating digital transformation is a complex but rewarding journey. By assessing your current capabilities, developing a clear strategy, fostering a culture of innovation, and measuring your progress, you can successfully implement digital transformation and position your organization for long-term success. Embracing digital transformation not only enhances operational efficiency but also opens up new avenues for growth, enabling your organization to thrive in the digital age."
+                        "Discover innovative furniture solutions for small spaces. These space-saving ideas will help you make the most of every square foot.",
+                        "Multi-functional furniture is key in small spaces. Look for pieces that serve more than one purpose, such as sofa beds, extendable dining tables, and storage ottomans. These versatile items can help you maximize your space without sacrificing functionality. For instance, a sofa bed can provide comfortable seating during the day and transform into a bed at night, while a storage ottoman can serve as a coffee table and offer hidden storage. Another example is an extendable dining table that can be compact for daily use and expanded when you have guests over.",
+                        "Vertical storage is another effective strategy. Utilize tall bookshelves, wall-mounted cabinets, and hanging organizers to take advantage of vertical space. This can help free up floor space and keep your home organized. Consider using high shelves in the kitchen for infrequently used items or installing a wall-mounted desk that can be folded away when not in use. Vertical storage solutions make it possible to store more items without cluttering your living space.",
+                        "Consider furniture with built-in storage options. Beds with drawers underneath, coffee tables with hidden compartments, and benches with lift-up seats are great for storing items out of sight while keeping them easily accessible. A bed with built-in storage can replace the need for a separate dresser, and a coffee table with compartments can keep your living room clutter-free. These pieces are perfect for maintaining a tidy and organized home, especially in smaller living spaces.",
+                        "Foldable and stackable furniture can be a lifesaver in small spaces. Folding chairs, collapsible desks, and stackable stools can be easily tucked away when not in use, freeing up valuable space for other activities. For example, a folding dining table can be stored against the wall when not needed, and stackable chairs can be piled up and stored in a closet. This flexibility allows you to adapt your space to your needs at any given moment.",
+                        "Opt for furniture with a small footprint. Sleek, streamlined designs take up less space and can make a room feel larger. Look for narrow dining tables, compact sofas, and slim-profile desks that fit comfortably in smaller areas. Choosing furniture that doesn't overpower the room helps create a more open and airy atmosphere. Pieces with clean lines and minimalist designs can also contribute to a sense of spaciousness.",
+                        "Mirrors can create the illusion of more space. Incorporate mirrored furniture or decorative mirrors to reflect light and make your room appear larger and more open. Placing a large mirror opposite a window can enhance natural light and give the impression of a more expansive area. Mirrored surfaces on furniture, such as mirrored cabinet doors, can also help achieve this effect.",
+                        "Finally, declutter regularly. Keeping your space tidy and free of unnecessary items can make a big difference in how spacious it feels. Consider implementing a minimalist approach to your decor, focusing on quality over quantity. Regularly go through your belongings and get rid of items you no longer need or use. This practice not only helps maintain an organized home but also reduces stress and creates a more serene living environment."
                     ]
                 },
                 {
                     "id": 5,
-                    "heading": "Achieving Work Life Harmony",
-                    "subHeading": "Strategies to balance professional responsibilities and personal well-being for a fulfilling life.",
+                    "title": "eco-friendly-furniture-options",
+                    "heading": "Eco-Friendly Furniture Options",
+                    "subheading": "Sustainable Choices for a Greener Home Environment",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 5.png",
+                    "name": "Emily Davis",
+                    "date": "20 May 2021",
+                    "category": "Sustainability",
                     "content": [
-                        "Achieving Work-Life Harmony",
-                        "Achieving work-life harmony is essential for maintaining overall well-being and satisfaction in both personal and professional life. It involves finding a balance that allows you to fulfill your job responsibilities while also taking care of your personal needs and interests. A harmonious work-life balance can lead to increased productivity, reduced stress, and greater overall happiness.",
-                        "One effective strategy for achieving work-life harmony is to set clear boundaries between work and personal time. This means designating specific hours for work and ensuring that you have dedicated time for relaxation and personal activities. Communicate these boundaries to your colleagues and family members to manage expectations. By clearly delineating work and personal time, you can prevent work from encroaching on your personal life and vice versa.",
-                        "Prioritizing tasks is another key aspect of work-life harmony. Identify your most important tasks and focus on completing them first. This helps to reduce stress and ensures that you are making progress on your key objectives. Delegate tasks where possible and avoid overcommitting yourself. Learning to say no to additional responsibilities when your plate is already full can help you maintain a healthy balance.",
-                        "Taking care of your physical and mental health is also crucial. Make time for regular exercise, healthy eating, and sufficient sleep. Incorporate activities that you enjoy and that help you relax, such as hobbies, socializing with friends, or spending time in nature. Mindfulness practices, such as meditation and yoga, can also help manage stress and improve your overall well-being.",
-                        "Finally, don't hesitate to seek support when needed. Whether it's from a supervisor, a mentor, or a mental health professional, getting support can help you navigate challenges and maintain a healthy work-life balance. Remember, achieving work-life harmony is an ongoing process that requires regular reflection and adjustment. Being open to feedback and willing to make changes as needed can help you find and maintain a balance that works for you."
+                        "Looking for environmentally friendly furniture? Explore our guide to sustainable furniture options that are good for your home and the planet.",
+                        "Reclaimed wood furniture is a popular eco-friendly choice. By repurposing old wood, these pieces reduce the demand for new timber and give new life to materials that might otherwise go to waste. Each piece of reclaimed wood furniture is unique, with its own history and character, making it not only an environmentally responsible choice but also a stylish addition to any home.",
+                        "Bamboo is another sustainable option. As a fast-growing, renewable resource, bamboo is an excellent material for eco-friendly furniture. It's durable, lightweight, and has a distinct, natural aesthetic. Bamboo furniture can range from modern and sleek to traditional and rustic, making it a versatile choice for various interior design styles.",
+                        "Furniture made from recycled materials is also gaining popularity. From plastic to metal to fabric, many manufacturers are finding innovative ways to repurpose materials and create stylish, functional furniture. Look for products that prominently feature recycled content. These pieces not only reduce waste but also help conserve natural resources by minimizing the need for new raw materials.",
+                        "Certified sustainable wood is a responsible choice for new wood furniture. Look for certifications such as FSC (Forest Stewardship Council) or PEFC (Programme for the Endorsement of Forest Certification) to ensure the wood comes from responsibly managed forests. This certification guarantees that the wood was harvested in a way that maintains the health and biodiversity of the forest ecosystem.",
+                        "Non-toxic finishes and adhesives are essential for truly eco-friendly furniture. Choose pieces finished with water-based or natural oils and waxes, and avoid those that use harmful chemicals or VOCs (volatile organic compounds). These non-toxic options are better for your health and the environment, reducing indoor air pollution and potential long-term health risks.",
+                        "Second-hand and vintage furniture can be eco-friendly options as well. By purchasing pre-loved items, you extend the life of the furniture and reduce the demand for new production. Thrift stores, antique shops, and online marketplaces are great places to find unique, high-quality pieces. Additionally, vintage furniture often boasts superior craftsmanship and materials, making it a durable and stylish choice.",
+                        "Consider supporting local artisans and small businesses that prioritize sustainability. Handcrafted furniture often has a smaller carbon footprint compared to mass-produced items and supports the local economy. These artisans typically use sustainable practices and materials, ensuring that each piece is not only beautiful but also environmentally friendly.",
+                        "Upcycling and DIY projects are also great ways to create eco-friendly furniture. Repurposing old items or building your own pieces from sustainable materials can be both rewarding and environmentally responsible. This approach allows you to customize your furniture to fit your style and needs while minimizing waste. Plus, upcycling can add a personal and unique touch to your home decor.",
+                        "Finally, consider the overall impact of your furniture choices on the environment. Opt for pieces that are built to last, reducing the need for frequent replacements. Durable, high-quality furniture may have a higher upfront cost but offers better value over time and lessens the environmental impact associated with manufacturing and disposal. By making thoughtful, sustainable choices, you can create a beautiful, eco-friendly home that reflects your commitment to the environment."
                     ]
                 },
                 {
                     "id": 6,
-                    "heading": "Innovative Marketing in the Digital Age",
-                    "subHeading": "Uncover the latest marketing trends and techniques to engage your audience and enhance brand loyalty.",
+                    "title": "how-to-arrange-living-room-furniture",
+                    "heading": "How to Arrange Living Room Furniture",
+                    "subheading": "Practical Tips for Creating a Harmonious and Functional Living Space",
+                    "isFeatured": true,
+                    "image": "/images/Blog/Blog Image 6.png",
+                    "name": "Michael Wilson",
+                    "date": "25 June 2021",
+                    "category": "Guide",
                     "content": [
-                        "Innovative Marketing in the Digital Age",
-                        "Marketing in the digital age is constantly evolving, with new trends and technologies emerging at a rapid pace. To stay ahead of the competition, businesses must embrace innovative marketing strategies that engage their audience and build brand loyalty. Digital marketing provides a plethora of tools and platforms that can help businesses reach their target audience more effectively and efficiently.",
-                        "One of the most impactful trends in digital marketing is the use of social media platforms. Social media allows businesses to connect with their audience in real-time, share valuable content, and create a community around their brand. Utilizing features like live streaming, stories, and user-generated content can enhance engagement and foster a sense of connection. Social media platforms also offer advanced targeting options that enable businesses to reach specific demographics and psychographics with precision.",
-                        "Another key trend is the use of data-driven marketing. By leveraging data analytics, businesses can gain insights into customer behavior and preferences, enabling them to create personalized marketing campaigns. This targeted approach not only improves the effectiveness of marketing efforts but also enhances the customer experience. Advanced analytics tools can help businesses track the performance of their campaigns in real-time and make data-driven adjustments to optimize results.",
-                        "Content marketing remains a powerful tool in the digital age. High-quality, valuable content that addresses the needs and interests of your audience can drive traffic to your website, increase brand awareness, and establish your authority in your industry. Experiment with different content formats, such as blogs, videos, podcasts, and infographics, to keep your audience engaged. Interactive content, such as quizzes and polls, can also boost engagement and provide valuable insights into your audience's preferences.",
-                        "Finally, don't overlook the importance of search engine optimization (SEO). Ensuring that your website and content are optimized for search engines can significantly improve your visibility and attract organic traffic. Keep up with the latest SEO best practices and algorithm updates to maintain a strong online presence. Incorporating both on-page and off-page SEO strategies, such as keyword optimization, backlink building, and technical SEO, can help enhance your website's search engine rankings.",
-                        "In conclusion, staying ahead in the digital marketing landscape requires a proactive approach and a willingness to adapt to new trends and technologies. By leveraging social media, data-driven insights, content marketing, and SEO, businesses can effectively engage their audience and build lasting brand loyalty. Continual learning and experimentation are key to maintaining a competitive edge and achieving marketing success in the digital age."
+                        "Arranging your living room furniture can impact the flow and functionality of the space. Follow these tips to create a harmonious and inviting layout.",
+                        "Start by identifying the focal point of the room. This could be a fireplace, a large window, or a television. Arrange your main seating around this focal point to create a natural gathering area. The focal point should be something that draws attention and serves as the centerpiece of your room, helping to anchor the space.",
+                        "Consider the traffic flow in the room. Ensure there are clear pathways for movement and avoid blocking entrances or doorways with furniture. Aim for a layout that allows easy access to all parts of the room. Think about how people will move through the space and try to create a natural flow that doesn't feel cramped or obstructed.",
+                        "Use furniture to define different areas within the living room. For example, a sofa can delineate the seating area, while a console table or bookshelf can create a boundary for a reading nook or workspace. This helps to organize the space and create distinct zones for different activities, making the room more functional and versatile.",
+                        "Balance is key in furniture arrangement. Distribute larger pieces evenly around the room to prevent one side from feeling heavier than the other. This creates a more cohesive and visually appealing layout. Symmetry can be pleasing to the eye, but don't be afraid to mix it up and create an asymmetrical arrangement if it suits your space better.",
+                        "Experiment with different arrangements before settling on a final layout. Use furniture sliders or ask for help to move pieces around until you find the best configuration for your space. Sometimes it takes a bit of trial and error to get it right, so be patient and willing to make adjustments as needed.",
+                        "Incorporate flexible seating options. Ottomans, stools, and floor cushions can provide additional seating when needed and be easily moved out of the way when not in use. These versatile pieces can help accommodate guests without overcrowding the room and can be stored away or repurposed as needed.",
+                        "Consider the scale and proportion of your furniture. Make sure the size of each piece is appropriate for the room and complements the other furnishings. Oversized furniture can overwhelm a small space, while too-small pieces may look lost in a larger room. Finding the right balance is crucial for creating a harmonious look.",
+                        "Layer your lighting to create a warm and inviting ambiance. Use a combination of overhead lighting, floor lamps, table lamps, and accent lighting to add depth and dimension to the room. Lighting can influence the mood and functionality of the space, so it's important to plan your lighting scheme carefully.",
+                        "Add personal touches to make the space feel inviting. Decorative pillows, throws, artwork, and plants can enhance the overall aesthetic and create a cozy atmosphere. Personalize your living room with items that reflect your style and personality, making it a place where you and your guests feel comfortable and welcome.",
+                        "Finally, don't forget about the importance of comfort. Make sure your seating is comfortable and inviting, and consider adding soft textiles like rugs and cushions to create a cozy environment. A well-arranged living room should not only look good but also feel good, providing a comfortable and relaxing space for you and your family."
+                    ]
+                },
+                {
+                    "id": 7,
+                    "title": "finding-the-perfect-sofa",
+                    "heading": "Finding the Perfect Sofa",
+                    "subheading": "A Comprehensive Guide to Choosing the Right Sofa for Your Living Room",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 7.png",
+                    "name": "Sarah Miller",
+                    "date": "30 July 2021",
+                    "category": "Guide",
+                    "content": [
+                        "The sofa is often the centerpiece of the living room. Learn how to find a sofa that combines comfort, style, and durability for your home.",
+                        "Determine the size and shape of the sofa that best fits your space. Measure your living room and consider the layout to ensure the sofa complements the room without overwhelming it. Think about how the sofa will fit with other furniture and allow for movement through the space.",
+                        "Comfort is crucial. Test out sofas in person whenever possible to evaluate their comfort level. Pay attention to the cushioning, support, and depth of the seat. Consider your personal preferences and how you intend to use the sofa. A good sofa should provide comfortable seating for extended periods.",
+                        "Select a style that aligns with your decor. Whether you prefer a modern, traditional, or eclectic look, choose a sofa that enhances the overall aesthetic of your living room. Consider the shape, color, and design details. A well-chosen sofa can set the tone for the entire room.",
+                        "Material matters. Choose a fabric or leather that suits your lifestyle. For families with children or pets, durable and easy-to-clean materials are ideal. If you prefer a luxurious feel, consider high-quality fabrics or leather. The material you choose will affect the look, feel, and maintenance of the sofa.",
+                        "Think about the sofa's functionality. Do you need a sofa bed for guests, a sectional for lounging, or a reclining feature for added comfort? Identify your needs and select a sofa that offers the right features. Functionality should be a key consideration to ensure the sofa meets your daily living requirements.",
+                        "Don't forget about the construction quality. A well-made sofa will last longer and provide better comfort and support. Look for sturdy frames, high-density foam cushions, and quality upholstery. Investing in a well-constructed sofa can save you money in the long run by reducing the need for frequent replacements.",
+                        "Consider the color and pattern of the sofa. Neutral colors are versatile and can easily be updated with different accessories, while bold colors and patterns can make a statement and add personality to your living room. Choose a color that complements your existing decor and suits your personal style.",
+                        "Evaluate the sofa's maintenance requirements. Some materials may require more care and cleaning than others. For example, fabric sofas might need regular vacuuming and occasional professional cleaning, while leather sofas can be wiped down and conditioned to maintain their appearance. Understanding the maintenance needs can help you choose a sofa that fits your lifestyle.",
+                        "Finally, set a budget. Sofas can vary widely in price, so determine how much you're willing to spend before you start shopping. Remember that investing in a high-quality sofa can offer better value in the long run. Look for sales, discounts, and financing options that can help you get the best deal without compromising on quality."
+                    ]
+                },
+                {
+                    "id": 8,
+                    "title": "furniture-care-101",
+                    "heading": "Furniture Care 101",
+                    "subheading": "Essential Tips for Maintaining and Protecting Your Furniture",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 8.png",
+                    "name": "David Martinez",
+                    "date": "15 August 2021",
+                    "category": "Maintenance",
+                    "content": [
+                        "Proper care extends the life of your furniture. Here are some basic tips to maintain different types of furniture and keep them looking their best.",
+                        "Dust and clean your furniture regularly to prevent dirt buildup. Use appropriate cleaning products for different materials, such as wood, metal, and upholstery. Regular dusting and cleaning can help maintain the appearance and integrity of your furniture. For wooden furniture, a damp cloth followed by a dry cloth can help remove dust without causing damage.",
+                        "Protect your furniture from direct sunlight and extreme temperatures. UV rays can cause fading, while temperature fluctuations can lead to warping and cracking. Consider placing your furniture away from windows or using curtains and blinds to block out harsh sunlight. Additionally, avoid placing furniture near heating vents or fireplaces to prevent drying out or heat damage.",
+                        "Use coasters, placemats, and tablecloths to prevent scratches, stains, and heat damage on surfaces. For upholstery, consider using slipcovers or fabric protectors. These protective measures can help extend the life of your furniture and keep it looking new. For wooden surfaces, use trivets or hot pads under hot dishes to avoid heat marks.",
+                        "Address spills and stains immediately. Blot, don't rub, and use appropriate cleaning methods for the specific material. For tough stains, professional cleaning might be necessary. Quick action can prevent permanent damage and staining. For example, use a mixture of mild soap and water for fabric stains, and for leather, a specialized leather cleaner can be effective.",
+                        "Regularly check and tighten screws, bolts, and other hardware to keep your furniture sturdy and secure. This is especially important for frequently used items like chairs and tables. Regular maintenance can prevent accidents and prolong the life of your furniture. For items with moving parts, such as recliners, ensure that all mechanisms are functioning smoothly and lubricate if necessary.",
+                        "Rotate and fluff cushions on sofas and chairs to maintain their shape and comfort. For mattresses, consider rotating and flipping them periodically to ensure even wear. Regular rotation can help maintain the comfort and support of your cushions and mattresses. This practice also helps in evenly distributing the wear and tear, prolonging the lifespan of your upholstery and bedding.",
+                        "Follow the manufacturer's care instructions for specific guidance on maintaining your furniture. Each piece may have unique care requirements, so it's important to follow the recommended maintenance guidelines. These instructions can provide valuable information on the best cleaning methods and products to use.",
+                        "For wooden furniture, use a high-quality furniture polish or wax to protect the finish and enhance the natural beauty of the wood. Avoid using harsh chemicals or abrasive cleaners that can damage the wood surface. Polishing not only gives the wood a nice shine but also creates a protective layer against moisture and dirt.",
+                        "Consider professional restoration services for antique or valuable furniture. Expert restoration can preserve the integrity and value of your pieces, ensuring they remain in excellent condition for years to come. Professional restorers have the skills and tools to address complex issues such as veneer repair, refinishing, and structural stabilization.",
+                        "Keep furniture away from pets that might scratch or chew on it. If you have pets, consider using pet-friendly furniture covers or selecting materials that are more resistant to pet damage. Training pets to avoid jumping on or scratching furniture can also be beneficial.",
+                        "Finally, consider the environmental factors in your home, such as humidity levels. Using a humidifier in dry climates or during winter months can prevent wood from drying out and cracking. Conversely, in humid conditions, a dehumidifier can help reduce the risk of mold and mildew on fabric and wood surfaces."
+                    ]
+                },
+                {
+                    "id": 9,
+                    "title": "how-to-choose-a-dining-table",
+                    "heading": "How to Choose a Dining Table",
+                    "subheading": "A Comprehensive Guide to Selecting the Perfect Dining Table for Your Home",
+                    "isFeatured": true,
+                    "image": "/images/Blog/Blog Image 9.png",
+                    "name": "Laura Garcia",
+                    "date": "10 September 2021",
+                    "category": "Guide",
+                    "content": [
+                        "Choosing the right dining table involves considering size, material, and style. Here's a guide to help you select the perfect dining table for your home.",
+                        "Start by measuring your dining area to determine the appropriate size for your table. Ensure there's enough space for chairs and for people to move comfortably around the table. A general rule of thumb is to leave at least 36 inches between the edge of the table and the wall or other furniture to allow for easy movement.",
+                        "Consider the shape of the table. Rectangular tables are great for larger spaces and can accommodate more people, while round or square tables can work well in smaller areas. The shape can also influence the flow and intimacy of dining experiences. Round tables encourage conversation and are ideal for small gatherings, while rectangular tables are better for larger, more formal settings.",
+                        "Choose a material that suits your lifestyle and decor. Wood is a classic choice that offers warmth and durability. Glass can create a modern, airy feel, while metal and stone add unique textures and durability. Each material has its own maintenance requirements, so consider how much upkeep you're willing to perform. For example, wood may need regular polishing, while glass requires frequent cleaning to avoid smudges.",
+                        "Think about the table's style and how it fits with your existing furniture. Whether you prefer traditional, modern, or eclectic designs, select a table that complements your decor. Consider the color, finish, and design details. A cohesive look can enhance the overall aesthetic of your dining area.",
+                        "Consider the table's functionality. Do you need an extendable table for larger gatherings, or a compact table for everyday use? Identify your needs and choose a table that offers the right features. Extendable tables can be a versatile solution for accommodating guests without taking up too much space on a daily basis.",
+                        "Check the table's construction quality. Look for sturdy legs, a solid frame, and a durable finish. High-quality construction ensures the table will last and withstand regular use. Pay attention to the joints and connections, as well-built tables should have strong, secure fittings that don't wobble or creak.",
+                        "Think about the seating arrangement. Ensure that the chairs you choose are the right height for the table and that there's enough legroom for comfort. Standard dining chairs have seat heights of around 18 inches, while the table height should be about 30 inches from the floor to the tabletop. This allows for comfortable dining and sufficient space for legs.",
+                        "Consider additional features such as built-in storage or integrated leaves for extendable tables. These features can add functionality and convenience to your dining area. Built-in storage, like drawers or shelves, can help keep dining essentials close at hand, while integrated leaves make it easy to adjust the table size for different occasions.",
+                        "Evaluate the table's maintenance requirements. Some materials may require more care and cleaning than others. For example, wood tables might need regular polishing and protection from heat and moisture, while glass tables need frequent cleaning to keep them smudge-free. Understanding the maintenance needs can help you choose a table that fits your lifestyle.",
+                        "Finally, set a budget. Dining tables can vary widely in price, so determine how much you're willing to spend. Remember that investing in a high-quality table can offer better value in the long run. Look for sales, discounts, and financing options that can help you get the best deal without compromising on quality. A well-chosen dining table is an investment in your home's comfort and style, providing a gathering place for family and friends for years to come."
+                    ]
+                },
+                {
+                    "id": 10,
+                    "title": "creating-a-cozy-bedroom",
+                    "heading": "Creating a Cozy Bedroom",
+                    "subheading": "Tips and Ideas for Designing a Comfortable and Inviting Bedroom",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 10.png",
+                    "name": "James Rodriguez",
+                    "date": "5 October 2021",
+                    "category": "Ideas",
+                    "content": [
+                        "Your bedroom should be a sanctuary. Discover furniture ideas to create a cozy and inviting bedroom atmosphere.",
+                        "Start with a comfortable bed. Invest in a high-quality mattress and bedding to ensure a good night's sleep. Consider adding a headboard for added comfort and style. The bed is the focal point of any bedroom, so choose one that reflects your style and provides the support you need for restful sleep.",
+                        "Choose bedside tables that offer both functionality and style. Look for tables with storage options like drawers or shelves to keep essentials within reach. Matching bedside tables can create a balanced look, but don't be afraid to mix and match styles for a more eclectic feel.",
+                        "Incorporate seating into your bedroom. A cozy chair or a small bench at the foot of the bed can provide a comfortable spot to relax and unwind. This additional seating can be used for reading, getting dressed, or simply enjoying a quiet moment.",
+                        "Add layers of lighting to create a warm and inviting ambiance. Combine overhead lighting with bedside lamps, wall sconces, and even string lights for a soft, cozy glow. Dimmable lights can offer flexibility, allowing you to adjust the brightness to suit your mood and activities.",
+                        "Select a dresser or chest of drawers that offers ample storage. Look for pieces that complement your bed and other furniture, creating a cohesive look. Consider the size and layout of your room when choosing a dresser, ensuring it provides enough storage without overwhelming the space.",
+                        "Decorate with textiles. Plush rugs, soft throw blankets, and decorative pillows can add texture and warmth to your bedroom. Choose colors and patterns that enhance the overall aesthetic. Layering different textiles can create a rich, inviting environment that feels luxurious and comfortable.",
+                        "Consider the color scheme of your bedroom. Soft, neutral tones can create a calming atmosphere, while bold colors can add energy and personality. Choose a palette that reflects your personal style and promotes relaxation.",
+                        "Incorporate personal touches to make the space feel uniquely yours. Display artwork, photographs, and keepsakes that have special meaning to you. Adding personal items can make your bedroom feel more intimate and reflective of your personality.",
+                        "Ensure your bedroom is free from clutter. A tidy, organized space can contribute to a sense of calm and relaxation. Use storage solutions like baskets, bins, and under-bed storage to keep items out of sight and maintain a clean, uncluttered environment.",
+                        "Consider the importance of air quality. Keep your bedroom well-ventilated and consider adding air-purifying plants to improve the air quality. Good air quality can contribute to better sleep and overall well-being.",
+                        "Lastly, focus on creating a sense of tranquility. Incorporate elements like calming scents, soothing sounds, and comfortable textures to create an environment conducive to relaxation and rest. Essential oil diffusers, sound machines, and soft, breathable bedding can all enhance the cozy atmosphere of your bedroom."
+                    ]
+                },
+                {
+                    "id": 11,
+                    "title": "the-benefits-of-modular-furniture",
+                    "heading": "The Benefits of Modular Furniture",
+                    "subheading": "Flexible and Functional Solutions for Modern Living",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 11.png",
+                    "name": "Mary Hernandez",
+                    "date": "20 November 2021",
+                    "category": "Benefits",
+                    "content": [
+                        "Modular furniture offers flexibility and functionality. Learn about the benefits and how to incorporate modular pieces into your home.",
+                        "Modular furniture is designed to be versatile and adaptable. It consists of individual units or sections that can be rearranged to suit different needs and spaces. This flexibility makes it ideal for a variety of settings, from small apartments to large homes.",
+                        "One of the main benefits of modular furniture is its flexibility. You can easily reconfigure your furniture to accommodate changing needs, such as hosting guests or creating a new layout. This adaptability ensures that your furniture can grow and change with you, providing a long-term solution for your home.",
+                        "Modular furniture is ideal for small spaces. Its adaptability allows you to maximize limited space, creating functional and efficient layouts. Look for modular sofas, shelving units, and storage solutions. These pieces can be customized to fit your space perfectly, making the most of every square foot.",
+                        "Customization is another advantage. Many modular pieces offer options for different configurations, colors, and materials, allowing you to create a personalized look that suits your style. This customization ensures that your furniture reflects your unique taste and complements your decor.",
+                        "Modular furniture is also easy to move and transport. The individual units are typically lighter and more manageable than traditional furniture, making it easier to rearrange or relocate. This ease of movement is particularly beneficial for renters or those who move frequently.",
+                        "Durability is important in modular furniture. Look for high-quality pieces that can withstand regular reconfiguring and movement. Well-made modular furniture can offer long-lasting value. Investing in durable materials and construction ensures that your modular pieces will remain functional and attractive for years to come.",
+                        "Modular furniture can be a cost-effective solution. Instead of purchasing multiple pieces of traditional furniture, you can invest in a modular system that can be adapted and expanded as needed. This approach can save you money in the long run, as you won't need to replace or buy additional furniture as your needs change.",
+                        "Consider the aesthetic appeal of modular furniture. Many designs are sleek and modern, adding a contemporary touch to your home. Choose pieces that complement your decor and enhance the overall look of your space. Modular furniture can be both functional and stylish, providing a cohesive and attractive environment.",
+                        "Modular systems often include integrated storage solutions. Look for units with built-in drawers, shelves, and compartments to help keep your space organized. These storage options can help reduce clutter and make your home more efficient and functional.",
+                        "Finally, modular furniture is perfect for creating multi-purpose spaces. Use modular pieces to define different areas within a room, such as a living area, workspace, or guest sleeping area. This flexibility allows you to make the most of your space and create a home that meets all your needs."
+                    ]
+                },
+                {
+                    "id": 12,
+                    "title": "outdoor-furniture-trends",
+                    "heading": "Outdoor Furniture Trends",
+                    "subheading": "Latest Trends to Transform Your Outdoor Living Space",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 12.png",
+                    "name": "William Clark",
+                    "date": "15 December 2021",
+                    "category": "Trends",
+                    "content": [
+                        "Stay updated with the latest trends in outdoor furniture. From materials to styles, here's what's popular in outdoor living.",
+                        "Sustainable and eco-friendly materials are a major trend in outdoor furniture. Look for pieces made from recycled materials, sustainably sourced wood, and other environmentally friendly options. These materials not only help reduce your carbon footprint but also offer durability and style.",
+                        "Comfortable and stylish outdoor seating is in demand. From plush outdoor sofas to cozy lounge chairs, comfort is a priority in creating inviting outdoor spaces. Look for weather-resistant cushions and fabrics that can withstand the elements while providing a comfortable seating experience.",
+                        "Multi-functional furniture is gaining popularity. Pieces that serve multiple purposes, such as outdoor dining sets that convert into lounges, are practical and versatile. This trend is especially useful for smaller outdoor spaces where maximizing functionality is key.",
+                        "Bold colors and patterns are making a statement in outdoor furniture. Vibrant hues and eye-catching prints can add personality and flair to your outdoor living area. Consider incorporating colorful cushions, rugs, and accessories to create a lively and inviting atmosphere.",
+                        "Durability is crucial for outdoor furniture. Look for weather-resistant materials like teak, aluminum, and synthetic wicker that can withstand the elements and require minimal maintenance. These materials ensure that your furniture remains in good condition year after year, despite exposure to sun, rain, and wind.",
+                        "Modular and sectional outdoor furniture is becoming more common. These pieces offer flexibility and can be rearranged to suit different occasions and spaces. Modular furniture allows you to customize your outdoor seating arrangement to fit your needs, whether you're hosting a large gathering or enjoying a quiet evening alone.",
+                        "Technology integration is a growing trend. From built-in lighting and speakers to smart furniture with charging ports, tech-enhanced outdoor furniture is on the rise. These features add convenience and enhance the functionality of your outdoor space, making it more enjoyable and versatile.",
+                        "Incorporating natural elements into outdoor furniture design is also trending. Materials like stone, concrete, and untreated wood bring an organic feel to outdoor spaces. These natural elements can help create a harmonious connection between your outdoor furniture and the surrounding environment.",
+                        "Outdoor kitchens and dining areas are becoming increasingly popular. Integrated grills, countertops, and storage solutions make it easy to prepare and enjoy meals outside. This trend reflects a growing desire to extend indoor living spaces to the outdoors, creating a seamless flow between the two.",
+                        "Consider adding fire pits or outdoor fireplaces to your outdoor living space. These features not only provide warmth and light but also serve as a focal point for gatherings and relaxation. Fire pits and fireplaces can extend the usability of your outdoor space into the cooler months, making it a year-round retreat.",
+                        "Finally, sustainability and eco-consciousness are influencing outdoor furniture design. Look for brands and products that prioritize sustainable practices and materials. Supporting companies that are committed to environmental stewardship helps ensure that your outdoor furniture choices are contributing to a healthier planet."
+                    ]
+                },
+                {
+                    "id": 13,
+                    "title": "luxury-furniture-brands",
+                    "heading": "Luxury Furniture Brands",
+                    "subheading": "Top High-End Brands Offering Exquisite Craftsmanship and Design",
+                    "isFeatured": true,
+                    "image": "/images/Blog/Blog Image 13.png",
+                    "name": "Patricia Lewis",
+                    "date": "10 January 2022",
+                    "category": "Brands",
+                    "content": [
+                        "Explore some of the top luxury furniture brands that offer exquisite craftsmanship and premium materials. Investing in luxury furniture can bring timeless elegance and unparalleled quality to your home.",
+                        "Luxury furniture brands are known for their attention to detail and use of high-quality materials. These brands often employ skilled artisans to create unique, handcrafted pieces. The result is furniture that not only looks beautiful but also stands the test of time, becoming heirlooms passed down through generations.",
+                        "Many luxury brands offer customizable options, allowing you to select the materials, finishes, and designs that best suit your preferences. This ensures you get a piece that is truly one-of-a-kind. Customization options can include choosing specific types of wood, fabric patterns, and even custom dimensions to fit your space perfectly.",
+                        "Sustainability is a priority for many high-end furniture brands. They often source materials responsibly and use environmentally friendly production methods. This commitment to sustainability ensures that your luxury furniture is not only beautiful but also ethically produced, contributing to a healthier planet.",
+                        "Design innovation is a hallmark of luxury furniture. These brands are at the forefront of design trends, often setting the standard for the industry with their cutting-edge styles. Whether it's incorporating new materials or experimenting with innovative forms, luxury furniture brands push the boundaries of traditional design.",
+                        "Investing in luxury furniture can provide long-term value. The superior craftsmanship and materials ensure these pieces stand the test of time, often becoming heirlooms passed down through generations. High-end furniture is built to last, reducing the need for frequent replacements and making it a wise financial investment.",
+                        "Top luxury brands offer exceptional customer service, including personalized consultations, white-glove delivery, and post-purchase support to ensure a seamless experience. This level of service ensures that your investment is protected and that you receive the best possible care throughout the entire purchasing process.",
+                        "Some renowned luxury furniture brands include Herman Miller, Knoll, Roche Bobois, and B&B Italia, each known for their distinctive style and commitment to quality. Herman Miller is celebrated for its innovative office furniture, while Knoll is known for its modernist designs. Roche Bobois offers a blend of contemporary and classic styles, and B&B Italia is renowned for its sleek, modern pieces.",
+                        "Luxury furniture often features exclusive materials such as exotic woods, premium leathers, and high-end fabrics. These materials not only enhance the aesthetic appeal of the furniture but also contribute to its durability and comfort. The use of rare and luxurious materials sets these pieces apart from standard furniture options.",
+                        "Attention to detail is another defining characteristic of luxury furniture. From intricate carvings and inlays to meticulously stitched upholstery, these pieces showcase the highest level of craftsmanship. Every element is carefully considered and executed to perfection, resulting in furniture that is both functional and a work of art.",
+                        "The design philosophy of luxury furniture brands often emphasizes timelessness and versatility. These pieces are created to be both current and classic, ensuring they remain stylish and relevant for years to come. The versatility of luxury furniture allows it to complement a wide range of interior design styles, from traditional to contemporary.",
+                        "Finally, owning luxury furniture is about more than just having beautiful pieces; it's about creating an environment that reflects your personal taste and values. These pieces can transform your home into a sanctuary of elegance and comfort, providing a daily reminder of the artistry and craftsmanship that went into their creation."
+                    ]
+                },
+                {
+                    "id": 14,
+                    "title": "budget-friendly-furniture",
+                    "heading": "Budget-Friendly Furniture",
+                    "subheading": "Affordable Options for Stylish and Functional Home Furnishings",
+                    "isFeatured": true,
+                    "image": "/images/Blog/Blog Image 14.png",
+                    "name": "Thomas Lee",
+                    "date": "25 February 2022",
+                    "category": "Budget",
+                    "content": [
+                        "Furnishing your home doesn't have to break the bank. Discover budget-friendly furniture options that offer great value without compromising on style or functionality.",
+                        "Look for furniture sales and discounts. Many retailers offer seasonal sales, clearance events, and promotional discounts that can help you save money on quality pieces. Shopping during these times can help you find great deals on furniture that might otherwise be out of your budget.",
+                        "Consider second-hand and vintage furniture. Thrift stores, consignment shops, and online marketplaces often have gently used furniture at a fraction of the cost of new items. These pieces can add unique character to your home and are often well-made. With a little creativity, you can refurbish or repurpose second-hand furniture to fit your style.",
+                        "DIY and upcycling can be cost-effective ways to furnish your home. Repurposing old furniture or building your own pieces can save money and add a personal touch to your decor. There are countless online tutorials and resources that can guide you through various DIY projects, from simple updates to complete furniture builds.",
+                        "Opt for multi-functional furniture that offers more value for your money. Pieces that serve multiple purposes, such as storage beds and convertible sofas, can maximize functionality in small spaces. Multi-functional furniture reduces the need for additional items, saving you money and space.",
+                        "Check out budget-friendly furniture brands that offer stylish and affordable options. Brands like IKEA, Wayfair, and Target have a wide range of furniture that fits various budgets and styles. These retailers often provide modern, attractive designs at prices that are accessible to many consumers.",
+                        "Consider buying furniture in sets. Dining sets, bedroom sets, and living room packages often come at a lower price than purchasing individual pieces separately. These sets are coordinated to match in style and design, ensuring a cohesive look without the higher cost.",
+                        "Prioritize quality over quantity. Invest in a few key pieces that will stand the test of time rather than filling your space with inexpensive, low-quality items. Quality furniture, even if more costly upfront, can be a better investment as it will last longer and maintain its appearance better than cheaper alternatives.",
+                        "Look for furniture made from durable, affordable materials. Materials like engineered wood, metal, and high-quality laminates can provide a stylish look at a lower cost than solid wood or other premium materials. These materials can offer durability and an attractive appearance without the high price tag.",
+                        "Be patient and shop around. Take the time to compare prices, read reviews, and visit multiple stores to find the best deals. Patience can pay off in finding the perfect piece at a great price, especially if you wait for sales or special promotions.",
+                        "Consider financing options if you're on a tight budget. Many furniture retailers offer financing plans that allow you to pay for your furniture over time. This can make higher-priced items more accessible and help you furnish your home without a large upfront cost.",
+                        "Finally, think about the long-term value of your furniture purchases. While it might be tempting to buy the cheapest options available, investing in pieces that are well-made and versatile can provide better value in the long run. Consider the overall cost of ownership, including durability and maintenance, to make smart furniture investments."
+                    ]
+                },
+                {
+                    "id": 15,
+                    "title": "custom-made-furniture",
+                    "heading": "Custom-Made Furniture",
+                    "subheading": "Personalized Pieces to Suit Your Unique Style and Needs",
+                    "isFeatured": false,
+                    "image": "/images/Blog/Blog Image 15.png",
+                    "name": "Jennifer Walker",
+                    "date": "15 March 2022",
+                    "category": "Custom",
+                    "content": [
+                        "Custom-made furniture allows you to create pieces that fit your exact needs and style preferences. Learn about the process and benefits of custom furniture.",
+                        "The main benefit of custom furniture is personalization. You can choose the materials, dimensions, finishes, and designs that best suit your space and taste. This level of customization ensures that your furniture perfectly matches your decor and meets your specific needs. Whether you need a sofa that fits an awkwardly shaped room or a dining table with the exact dimensions for your family gatherings, custom furniture can provide the ideal solution.",
+                        "Custom furniture is often made by skilled artisans who take pride in their craftsmanship. This attention to detail ensures high-quality construction and unique, one-of-a-kind pieces. Artisans often use traditional methods and high-quality materials to create furniture that is not only beautiful but also durable and long-lasting.",
+                        "Working with a designer or craftsman allows you to bring your vision to life. Whether you have a specific design in mind or need guidance, custom furniture can be tailored to your preferences. Designers can help you refine your ideas and suggest options that you might not have considered, resulting in a piece that is both functional and aesthetically pleasing.",
+                        "Custom-made furniture can be a solution for challenging spaces. If you have an unusually shaped room or specific size requirements, custom pieces can be designed to fit perfectly. This is particularly useful for small apartments, historic homes with unique architectural features, or any space where standard furniture doesn't quite fit.",
+                        "While custom furniture can be more expensive than mass-produced items, the investment often results in higher quality and longer-lasting pieces that offer better value over time. Custom furniture is built to last, reducing the need for replacements and repairs. Additionally, the satisfaction of having a piece that is uniquely yours can be well worth the extra cost.",
+                        "Consider the timeline for custom furniture. Since each piece is made to order, it can take several weeks or months to complete. Plan accordingly if you're furnishing a new home or redecorating. Working with a trusted craftsman can help ensure that your project stays on schedule and meets your expectations.",
+                        "Supporting local artisans and businesses by choosing custom furniture not only ensures a unique product but also contributes to the local economy and craftsmanship. Many artisans source materials locally and use sustainable practices, making custom furniture an eco-friendly choice as well.",
+                        "Custom furniture offers the opportunity to incorporate unique features and functionalities. For example, you might add hidden storage compartments, integrate technology, or design a piece that serves multiple purposes. These custom features can enhance the usability and enjoyment of your furniture.",
+                        "The design process for custom furniture typically involves several steps, including initial consultations, design development, material selection, and final approval. This collaborative process ensures that the final product meets your expectations and requirements. Regular communication with the designer or craftsman can help address any concerns and make adjustments as needed.",
+                        "Finally, custom-made furniture can become a cherished part of your home and a conversation piece for guests. Each piece tells a story, reflecting your personal style and the craftsmanship that went into its creation. Custom furniture not only enhances the functionality and aesthetics of your space but also adds a sense of pride and satisfaction in owning something truly unique."
+                    ]
+                },
+                {
+                    "id": 16,
+                    "title": "vintage-vs-modern-furniture",
+                    "heading": "Vintage vs. Modern Furniture",
+                    "subheading": "Choosing the Right Style for Your Home Decor",
+                    "isFeatured": true,
+                    "image": "/images/Blog/Blog Image 16.png",
+                    "name": "Charles Hall",
+                    "date": "5 April 2022",
+                    "category": "Style",
+                    "content": [
+                        "Debating between vintage and modern furniture styles? Understand the differences and how to choose the best style for your home.",
+                        "Vintage furniture offers charm and character. These pieces often have a history and unique details that add personality to your home. Vintage furniture can be found in various styles, from mid-century modern to antique, each bringing a different feel and aesthetic to your space. The patina, craftsmanship, and stories behind vintage pieces make them more than just functional items; they become conversation pieces and a way to connect with the past.",
+                        "Modern furniture is known for its clean lines and minimalist designs. It emphasizes function and simplicity, often incorporating innovative materials and construction techniques. Modern pieces tend to feature neutral colors, sleek surfaces, and an overall aesthetic that promotes a clutter-free environment. This style is perfect for creating a contemporary look that feels open, airy, and sophisticated.",
+                        "Consider the aesthetic you want to achieve. Vintage furniture can create a warm, eclectic, and nostalgic atmosphere, while modern furniture offers a sleek, contemporary, and streamlined look. Mixing both styles can also be effective, creating a unique and balanced decor that combines the best of both worlds.",
+                        "Mixing vintage and modern styles can create a balanced and interesting decor. Pairing a vintage sofa with modern lighting, for example, can result in a unique and harmonious space. This approach allows you to enjoy the timeless beauty of vintage pieces while benefiting from the functionality and innovation of modern design.",
+                        "Quality and durability are important factors. Both vintage and modern furniture can be well-made, but vintage pieces may require more maintenance and care to preserve their condition. Modern furniture often uses new materials and technologies that can offer greater durability and easier maintenance. When choosing furniture, consider how much time and effort you're willing to invest in upkeep.",
+                        "Cost can also be a consideration. Vintage furniture can vary in price, with some pieces being highly collectible and expensive. Modern furniture ranges widely in cost, depending on the brand and materials used. Vintage items can sometimes be found at a bargain, but high-demand pieces from renowned designers can be quite pricey. Modern furniture offers a wide range of options, from affordable to high-end.",
+                        "Ultimately, choose the style that resonates with you and complements your home's overall design. Whether you prefer the timeless appeal of vintage or the cutting-edge look of modern, selecting pieces that you love will make your home feel truly yours. Consider how each style fits with your lifestyle and how it makes you feel in your space.",
+                        "Combining vintage and modern furniture requires a thoughtful approach to ensure cohesion. Focus on a unifying color scheme or design element to tie the different pieces together. For instance, using a consistent color palette can help blend various styles seamlessly. Additionally, balancing the room with a mix of textures and materials can create visual interest and harmony.",
+                        "When shopping for vintage furniture, check the condition and authenticity of the pieces. Look for signs of quality craftsmanship, such as dovetail joints, solid wood construction, and original hardware. Be wary of items that show excessive wear or have been poorly repaired. Reputable antique dealers and auctions are good sources for authentic vintage furniture.",
+                        "Modern furniture shopping should focus on functionality and quality. Evaluate the materials and construction methods used. High-quality modern furniture often features innovative materials like tempered glass, stainless steel, and engineered wood that offer durability and a sleek appearance. Pay attention to the practicality of the design, ensuring that it meets your daily needs while maintaining its aesthetic appeal.",
+                        "Incorporating both vintage and modern furniture into your home can reflect your personal style and interests. It allows you to create a space that is uniquely yours, blending history with contemporary trends. This eclectic approach can result in a dynamic and inviting home that tells your story and evolves with your tastes."
                     ]
                 }
             ]
         }
     },
     "footer": {
-        "companyList": ["About Us", "Careers", "Services", "Blog"],
-        "connectList": ["hi@finsweet.com", "+(123) 456-7890"]
+        "support": [
+            "236 5th SE Avenue, New York NY10000, United States",
+            "LuxeFurn@gmail.com",
+            "Mobile: +(84) 546-6789 Hotline: +(84) 456-6789"
+        ],
+        "account": [
+            "My Account",
+            "Login / Register",
+            "Cart",
+            "Favorite",
+            "Shop"
+        ],
+        "link": ["Privacy Policy", "Term Of Use", "FAQ", "Contact"]
     }
 }

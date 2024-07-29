@@ -1,15 +1,11 @@
 import React from "react";
-import Home from "./pages/home/Home";
+import SmoothScroll from "./components/SmoothScroll";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Header/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
-import SmoothScroll from "./components/SmoothScroll";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutUs from "./pages/about-us/AboutUs";
-import Careers from "./pages/careers/Careers";
-import Services from "./pages/services/Services";
-import Blog from "./pages/blogs/Blog";
-import ContactUs from "./pages/contact-us/ContactUs";
+import Pages from "./pages/Pages";
 
 const App = () => {
     return (
@@ -18,16 +14,9 @@ const App = () => {
                 <Header>
                     <Navbar />
                 </Header>
-                <main>
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<AboutUs />} />
-                        <Route path="/careers/*" element={<Careers />} />
-                        <Route path="/services" element={<Services />} />
-                        <Route path="/blog/*" element={<Blog />} />
-                        <Route path="/contact" element={<ContactUs />} />
-                    </Routes>
-                </main>
+                <Main>
+                    <Pages />
+                </Main>
                 <Footer />
             </SmoothScroll>
         </Router>

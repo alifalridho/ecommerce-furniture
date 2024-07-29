@@ -1,102 +1,64 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { gsap } from "gsap";
-import Hamburger from "./Hamburger";
+import React, { useState } from "react";
 import data from "../../data.json";
+import { Link } from "react-router-dom";
+import Hamburger from "./Hamburger";
+import CartSidebar from "../../pages/Cart/CartSidebar";
 
 const Navbar = () => {
-    const {
-        header: { navlists },
-    } = data;
-    const location = useLocation();
-    const indicatorRefs = useRef([]);
-    const [clickedIndex, setClickedIndex] = useState(null);
+    const [isCartOpen, setIsCartOpen] = useState(false);
+    const list = data.header.list;
+    const icon = ["person", "search", "shopping_cart"];
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
-    useEffect(() => {
-        navlists.forEach((_, index) => {
-            if (indicatorRefs.current[index]) {
-                gsap.to(indicatorRefs.current[index], {
-                    opacity: location.pathname === navlists[index].path ? 1 : 0,
-                    duration: 0.5,
-                    ease: "power3.inOut",
-                });
-            }
-        });
-    }, [location.pathname, navlists]);
+    const handleCartOpen = () => {
+        setIsCartOpen(true);
+    };
 
-    useEffect(() => {
-        if (clickedIndex !== null) {
-            const timer = setTimeout(() => {
-                if (indicatorRefs.current[clickedIndex]) {
-                    gsap.to(indicatorRefs.current[clickedIndex], {
-                        opacity: 0,
-                        duration: 0.5,
-                        ease: "power3.inOut",
-                    });
-                }
-            }, 1000);
-
-            return () => clearTimeout(timer);
-        }
-    }, [clickedIndex]);
-
-    const handleLinkClick = (index) => {
-        setClickedIndex(index);
+    const handleCartClose = () => {
+        setIsCartOpen(false);
     };
 
     return (
-        <nav className="px-5 lg:px-5 min-[1150px]:px-0 flex justify-between items-center max-w-6xl mx-auto">
-            <div className="hover:cursor-pointer text-xl lg:text-3xl  font-semibold">
-                <Link to={"/"}>Brightrix</Link>
-            </div>
-            <ul className="hidden sm:flex justify-center items-center sm:text-xs sm:gap-7 md:text-sm lg:gap-10 font-bold relative">
-                {navlists.map((list, index) => (
-                    <li
-                        key={index}
-                        className="relative"
-                        onMouseEnter={() =>
-                            gsap.to(indicatorRefs.current[index], {
-                                opacity: 1,
-                                duration: 0.5,
-                                ease: "power3.inOut",
-                            })
-                        }
-                        onMouseLeave={() =>
-                            gsap.to(indicatorRefs.current[index], {
-                                opacity:
-                                    location.pathname === list.path ? 1 : 0,
-                                duration: 0.5,
-                                ease: "power3.inOut",
-                            })
-                        }
-                        onClick={scrollToTop}
-                    >
-                        <Link
-                            to={list.path}
-                            className="relative z-10"
-                            onClick={() => handleLinkClick(index)}
+        <>
+            <nav className="flex justify-between items-center h-16 max-w-6xl mx-auto px-8 min-[1150px]:px-0">
+                <div className="">
+                    <button className="text-2xl font-semibold">LuxeFurn</button>
+                </div>
+                <ul className="hidden sm:flex justify-center items-center text-sm md:text-base sm:gap-7 md:gap-10 lg:gap-16 font-semibold">
+                    {list.map((item, index) => (
+                        <li
+                            onClick={scrollToTop}
+                            className="hover:cursor-pointer"
+                            key={index}
                         >
-                            {list.name}
-                        </Link>
-                        <div
-                            ref={(el) => (indicatorRefs.current[index] = el)}
-                            className="absolute top-7 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-black rounded-full opacity-0"
-                        />
-                    </li>
-                ))}
-            </ul>
-            <div className="hidden sm:flex items-center gap-4">
-                <button className="text-orange-600 bg-orange-100 p-2 px-7 rounded-full sm:text-xs md:text-sm font-bold">
-                    Sign In
-                </button>
-            </div>
-            <div className="flex sm:hidden">
-                <Hamburger />
-            </div>
-        </nav>
+                            <Link to={item.page}>{item.list}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <div className="hidden sm:flex justify-center items-center text-sm md:text-base sm:gap-2 md:gap-3 lg:gap-6">
+                    {icon.map((text, index) => (
+                        <button
+                            key={index}
+                            onClick={
+                                text === "shopping_cart"
+                                    ? handleCartOpen
+                                    : undefined
+                            }
+                        >
+                            <span className="material-symbols-outlined">
+                                {text}
+                            </span>
+                        </button>
+                    ))}
+                </div>
+                <div className="flex sm:hidden">
+                    <Hamburger />
+                </div>
+            </nav>
+            <CartSidebar isOpen={isCartOpen} onClose={handleCartClose} />
+        </>
     );
 };
 

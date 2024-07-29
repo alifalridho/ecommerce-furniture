@@ -6,7 +6,7 @@ const SwiperContainer = ({ children }) => {
     return (
         <div className="overflow-hidden px-5">
             <Swiper
-                spaceBetween={10}
+                spaceBetween={20}
                 navigation
                 pagination={{ clickable: true }}
                 breakpoints={{
@@ -19,11 +19,11 @@ const SwiperContainer = ({ children }) => {
                     },
                     // when window width is >= 768px (md)
                     768: {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                     },
                     // when window width is >= 1024px (lg)
                     1024: {
-                        slidesPerView: 4,
+                        slidesPerView: 3,
                     },
                 }}
                 className="flex items-center"

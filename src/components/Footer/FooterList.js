@@ -1,19 +1,19 @@
 import React from "react";
 
-const FooterList = ({ array, text }) => {
+const FooterList = ({ listArray, header }) => {
     return (
-        <>
-            <div className="flex flex-col gap-4">
-                <div className="font-semibold">{text}</div>
-                <ul className="flex flex-col gap-1 font-thin">
-                    {array.map((list, index) => (
-                        <a className="hover:underline" href="/">
-                            <li key={index}>{list}</li>
+        <div className="space-y-6">
+            <p className="font-semibold">{header}</p>
+            <ul className="space-y-3">
+                {listArray.map((list, index) => (
+                    <li key={index}>
+                        <a href="/" className="hover:underline font-thin">
+                            {list}
                         </a>
-                    ))}
-                </ul>
-            </div>
-        </>
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
 };
 
